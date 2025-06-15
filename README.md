@@ -13,3 +13,6 @@ Cliente en Python que se conecta al servicio REST para obtener datos, ejecuta un
 
 Diagrama arquitectura/
 Diagrama de arquitectura.
+
+Diagramas uml/
+Son los diagramas UML correspondientes al proyecto AEMET-INE y al servicio
