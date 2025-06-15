@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/api/jakarta.ws.rs-api-2.1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/aopalliance-repackaged-2.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/hk2-api-2.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/hk2-locator-2.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/hk2-utils-2.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/jakarta.activation-api-1.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/jakarta.annotation-api-1.3.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/jakarta.inject-2.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/jakarta.json.bind-api-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/jakarta.json-1.1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/jakarta.json-1.1.6-module.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/jakarta.json-api-1.1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/jakarta.persistence-api-2.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/jakarta.servlet-api-4.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/jakarta.validation-api-2.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/jakarta.ws.rs-api-2.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/jakarta.xml.bind-api-2.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/javassist-3.30.2-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/org.osgi.core-6.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/osgi-resource-locator-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/ext/yasson-1.0.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/lib/jersey-client.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/lib/jersey-common.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/lib/jersey-container-servlet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/lib/jersey-container-servlet-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/lib/jersey-hk2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/lib/jersey-media-jaxb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/lib/jersey-media-json-binding.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/lib/jersey-media-sse.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/jaxrs-ri-2.45/jaxrs-ri/lib/jersey-server.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/gson-2.10.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/OneDrive - Universidad Politécnica de Madrid/Escritorio/TFG PABLO GUERRERO ALVAREZ/LIBRERIA APACHE POI LECTOR EXCELS/poi-5.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/OneDrive - Universidad Politécnica de Madrid/Escritorio/TFG PABLO GUERRERO ALVAREZ/LIBRERIA APACHE POI LECTOR EXCELS/poi-ooxml-5.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/OneDrive - Universidad Politécnica de Madrid/Escritorio/TFG PABLO GUERRERO ALVAREZ/LIBRERIA APACHE POI LECTOR EXCELS/log4j-api-2.23.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/OneDrive - Universidad Politécnica de Madrid/Escritorio/TFG PABLO GUERRERO ALVAREZ/LIBRERIA APACHE POI LECTOR EXCELS/log4j-core-2.23.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/OneDrive - Universidad Politécnica de Madrid/Escritorio/TFG PABLO GUERRERO ALVAREZ/LIBRERIA APACHE POI LECTOR EXCELS/xmlbeans-5.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/OneDrive - Universidad Politécnica de Madrid/Escritorio/TFG PABLO GUERRERO ALVAREZ/LIBRERIA APACHE POI LECTOR EXCELS/poi-ooxml-lite-5.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/OneDrive - Universidad Politécnica de Madrid/Escritorio/TFG PABLO GUERRERO ALVAREZ/LIBRERIA APACHE POI LECTOR EXCELS/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/OneDrive - Universidad Politécnica de Madrid/Escritorio/TFG PABLO GUERRERO ALVAREZ/LIBRERIA APACHE POI LECTOR EXCELS/commons-compress-1.27.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/OneDrive - Universidad Politécnica de Madrid/Escritorio/TFG PABLO GUERRERO ALVAREZ/LIBRERIA APACHE POI LECTOR EXCELS/commons-io-2.16.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo Guerrero/Downloads/mysql-connector-j-8.0.31.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/aircompressor-0.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/antlr4-runtime-4.7.1.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/apiguardian-api-1.1.2.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/bigint-0.7.1.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/bson-4.0.6.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/bufr-5.5.3.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/cdm-core-5.5.3.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/commons-beanutils-1.9.4.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/commons-cli-1.4.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/commons-compiler-3.0.8.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/commons-digester-1.8.1.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/commons-io-2.16.1.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/commons-jxpath-1.3.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/commons-lang3-3.15.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/commons-pool-1.5.4.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/commons-text-1.12.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/disruptor-1.2.15.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/eastwood-1.1.1-20090908.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/ehcache-3.4.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/ejml-core-0.41.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/ejml-ddense-0.41.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/error_prone_annotations-2.26.1.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/failureaccess-1.0.2.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/FastInfoset-1.2.15.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gdal-3.2.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/geodb-0.9.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/GeographicLib-Java-1.49.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/grib-5.5.3.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-api-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-app-schema-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-app-schema-resolver-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-arcgrid-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-brewer-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-charts-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-complex-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-coverage-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-coverage-api-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-cql-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-csv-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-epsg-extension-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-epsg-hsql-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-feature-pregeneralized-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-geopkg-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-geotiff-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-gml-geometry-streaming-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-graph-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-grassraster-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-grib-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-grid-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-http-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-http-commons-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-image-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-imageio-ext-gdal-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-imagemosaic-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-imagepyramid-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-jdbc-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-jdbc-db2-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-jdbc-h2-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-jdbc-hana-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-jdbc-mysql-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-jdbc-oracle-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-jdbc-postgis-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-jdbc-sqlserver-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-jdbc-teradata-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-jp2k-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-main-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-mbstyle-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-metadata-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-mongodb-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-netcdf-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-process-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-process-feature-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-process-geometry-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-process-raster-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-property-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-referencing-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-render-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-sample-data-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-sample-data-access-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-shapefile-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-swing-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-tile-client-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-transform-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-wfs-ng-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-wms-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-wmts-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-xml-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-xsd-core-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-xsd-csw-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-xsd-fes-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-xsd-filter-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-xsd-gml2-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-xsd-gml3-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-xsd-kml-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-xsd-ows-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-xsd-sld-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-xsd-wcs-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-xsd-wfs-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-xsd-wms-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-xsd-wmts-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-xsd-wps-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/gt-ysld-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/guava-33.2.1-jre.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/h2-1.1.119.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/hatbox-1.0.b11.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/hsqldb-2.7.2.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/httpclient-4.5.14.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/httpcore-4.4.16.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/httpmime-4.5.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/httpservices-5.5.3.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-arcgrid-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-cog-commons-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-cog-reader-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-cog-streams-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-gdalarcbinarygrid-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-gdaldted-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-gdalecw-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-gdalecwjp2-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-gdalehdr-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-gdalenvihdr-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-gdalerdasimg-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-gdalframework-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-gdalidrisi-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-gdalkakadujp2-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-gdalmrsid-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-gdalmrsidjp2-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-gdalnitf-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-gdalrpftoc-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-gdalsrp-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-gdalvrt-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-geocore-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-imagereadmt-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-kakadu-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-kakadujni-5.2.6.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-streams-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-tiff-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/imageio-ext-utilities-1.4.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/indriya-2.2.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/istack-commons-runtime-3.0.7.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/j2objc-annotations-3.0.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jai_codec-1.1.3.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jai_core-1.1.3.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jai_imageio-1.1.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jakarta.activation-api-1.2.2.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jakarta.annotation-api-1.3.4.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jakarta.inject-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jakarta.xml.bind-api-2.3.3.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/janino-3.0.8.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jaxb-api-2.4.0-b180830.0359.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jaxb-runtime-2.4.0-b180830.0438.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jcc-11.5.9.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jcommander-1.78.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jcommon-1.0.13.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jdom2-2.0.6.1.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jfreechart-1.0.10.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jgridshift-core-1.3.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jj2000-5.4.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jna-5.4.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/joda-time-2.10.3.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jsr305-3.0.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-affine-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-algebra-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-attributeop-1.6.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-bandcombine-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-bandmerge-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-bandselect-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-binarize-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-border-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-buffer-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-classbreaks-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-classifier-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-colorconvert-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-colorindexer-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-contour-1.6.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-crop-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jtds-1.3.1.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-errordiffusion-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-format-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-imagefunction-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-iterators-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-jiffle-language-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-jiffle-op-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-lookup-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-mosaic-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-nullop-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-orderdither-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-piecewise-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-rangelookup-1.6.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-rescale-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-rlookup-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-scale-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-scale2-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jts-core-1.20.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-shadedrelief-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-stats-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-translate-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-utilities-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-utils-1.6.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-vectorbin-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-vectorbinarize-1.6.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-vectorize-1.6.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-warp-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-zonal-1.1.27.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/jt-zonalstats-1.6.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/miglayout-3.7-swing.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/mongodb-driver-core-4.0.6.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/mongodb-driver-legacy-4.0.6.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/mongodb-driver-sync-4.0.6.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/mssql-jdbc-9.4.0.jre8.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/mysql-connector-java-8.0.28.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/net.opengis.csw-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/net.opengis.fes-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/net.opengis.ows-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/net.opengis.wcs-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/net.opengis.wfs-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/net.opengis.wmts-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/net.opengis.wps-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/netcdf4-5.5.3.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/ojdbc8-19.18.0.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/opencsv-5.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/opendap-2.1.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/org.eclipse.emf.common-2.15.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/org.eclipse.emf.ecore.xmi-2.15.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/org.eclipse.emf.ecore-2.15.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/org.eclipse.xsd-2.12.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/org.w3.xlink-32.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/picocontainer-1.2.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/protobuf-java-3.19.3.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/re2j-1.6.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/si-quantity-2.1.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/si-units-2.1.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/slf4j-api-1.7.32.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/snakeyaml-2.2.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/spotbugs-annotations-4.0.2.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/sqlite-jdbc-3.41.2.2.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/stax-ex-1.8.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/systems-common-2.1.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/txw2-2.4.0-b180830.0438.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/udunits-5.5.3.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/unit-api-2.2.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/uom-lib-common-2.2.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/xml-commons-resolver-1.2.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/xmlunit-core-2.10.0.jar"/>
+	<classpathentry kind="lib" path="geotools-32.0/lib/xmlunit-matchers-2.9.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,1047 @@
+Prediccion [Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=0, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=, periodo=00-24, descripcion=], EstadoCielo [value=, periodo=00-12, descripcion=], EstadoCielo [value=12, periodo=12-24, descripcion=Poco nuboso], EstadoCielo [value=, periodo=00-06, descripcion=], EstadoCielo [value=12, periodo=06-12, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=12-18, descripcion=Poco nuboso], EstadoCielo [value=12n, periodo=18-24, descripcion=Poco nuboso]],
+ [Viento [direccion=, velocidad=0, periodo=00-24], Viento [direccion=, velocidad=0, periodo=00-12], Viento [direccion=SE, velocidad=10, periodo=12-24], Viento [direccion=E, velocidad=10, periodo=00-06], Viento [direccion=SE, velocidad=10, periodo=06-12], Viento [direccion=NE, velocidad=10, periodo=12-18], Viento [direccion=NE, velocidad=5, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=17, minima=11, dato=[Dato [value=13, hora=6], Dato [value=15, hora=12], Dato [value=14, hora=18], Dato [value=11, hora=24]]],
+ SensTermica [maxima=17, minima=11],
+ HumedadRelativa [maxima=95, minima=80],
+ uvMax =2,
+ fecha = 2024-11-01T00:00:00
+], Dia [
+[ProbPrecipitacion [value=40, periodo=00-24], ProbPrecipitacion [value=5, periodo=00-12], ProbPrecipitacion [value=35, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=5, periodo=06-12], ProbPrecipitacion [value=35, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=14, periodo=00-24, descripcion=Nuboso], EstadoCielo [value=17, periodo=00-12, descripcion=Nubes altas], EstadoCielo [value=14, periodo=12-24, descripcion=Nuboso], EstadoCielo [value=81n, periodo=00-06, descripcion=Niebla ], EstadoCielo [value=17, periodo=06-12, descripcion=Nubes altas], EstadoCielo [value=14, periodo=12-18, descripcion=Nuboso], EstadoCielo [value=12n, periodo=18-24, descripcion=Poco nuboso]],
+ [Viento [direccion=C, velocidad=0, periodo=00-24], Viento [direccion=NE, velocidad=5, periodo=00-12], Viento [direccion=C, velocidad=0, periodo=12-24], Viento [direccion=C, velocidad=0, periodo=00-06], Viento [direccion=C, velocidad=0, periodo=06-12], Viento [direccion=C, velocidad=0, periodo=12-18], Viento [direccion=E, velocidad=10, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=19, minima=8, dato=[Dato [value=9, hora=6], Dato [value=18, hora=12], Dato [value=13, hora=18], Dato [value=13, hora=24]]],
+ SensTermica [maxima=19, minima=8],
+ HumedadRelativa [maxima=100, minima=60],
+ uvMax =2,
+ fecha = 2024-11-02T00:00:00
+], Dia [
+[ProbPrecipitacion [value=5, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=5, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=14, periodo=00-24, descripcion=Nuboso], EstadoCielo [value=14, periodo=00-12, descripcion=Nuboso], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso]],
+ [Viento [direccion=S, velocidad=25, periodo=00-24], Viento [direccion=S, velocidad=25, periodo=00-12], Viento [direccion=S, velocidad=25, periodo=12-24]],
+ [RachaMax [value=55, periodo=00-24], RachaMax [value=55, periodo=00-12], RachaMax [value=55, periodo=12-24]],
+ Temperatura [maxima=18, minima=12, dato=[]],
+ SensTermica [maxima=18, minima=12],
+ HumedadRelativa [maxima=95, minima=70],
+ uvMax =2,
+ fecha = 2024-11-03T00:00:00
+], Dia [
+[ProbPrecipitacion [value=35, periodo=00-24], ProbPrecipitacion [value=20, periodo=00-12], ProbPrecipitacion [value=5, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=15, periodo=00-24, descripcion=Muy nuboso], EstadoCielo [value=16, periodo=00-12, descripcion=Cubierto], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso]],
+ [Viento [direccion=SE, velocidad=25, periodo=00-24], Viento [direccion=SE, velocidad=25, periodo=00-12], Viento [direccion=SE, velocidad=25, periodo=12-24]],
+ [RachaMax [value=65, periodo=00-24], RachaMax [value=65, periodo=00-12], RachaMax [value=65, periodo=12-24]],
+ Temperatura [maxima=17, minima=13, dato=[]],
+ SensTermica [maxima=17, minima=13],
+ HumedadRelativa [maxima=90, minima=70],
+ uvMax =2,
+ fecha = 2024-11-04T00:00:00
+], Dia [
+[ProbPrecipitacion [value=55, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=44, periodo=null, descripcion=Nuboso con lluvia escasa]],
+ [Viento [direccion=S, velocidad=10, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=19, minima=11, dato=[]],
+ SensTermica [maxima=19, minima=11],
+ HumedadRelativa [maxima=90, minima=70],
+ uvMax =2,
+ fecha = 2024-11-05T00:00:00
+], Dia [
+[ProbPrecipitacion [value=25, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=13, periodo=null, descripcion=Intervalos nubosos]],
+ [Viento [direccion=C, velocidad=0, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=20, minima=11, dato=[]],
+ SensTermica [maxima=20, minima=11],
+ HumedadRelativa [maxima=85, minima=80],
+ uvMax =0,
+ fecha = 2024-11-06T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=15, periodo=null, descripcion=Muy nuboso]],
+ [Viento [direccion=S, velocidad=15, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=16, minima=10, dato=[]],
+ SensTermica [maxima=16, minima=10],
+ HumedadRelativa [maxima=90, minima=70],
+ uvMax =0,
+ fecha = 2024-11-07T00:00:00
+]]
+
+
+Prediccion [Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=0, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=, periodo=00-24, descripcion=], EstadoCielo [value=, periodo=00-12, descripcion=], EstadoCielo [value=12, periodo=12-24, descripcion=Poco nuboso], EstadoCielo [value=, periodo=00-06, descripcion=], EstadoCielo [value=12, periodo=06-12, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=12-18, descripcion=Poco nuboso], EstadoCielo [value=11n, periodo=18-24, descripcion=Despejado]],
+ [Viento [direccion=, velocidad=0, periodo=00-24], Viento [direccion=, velocidad=0, periodo=00-12], Viento [direccion=SE, velocidad=15, periodo=12-24], Viento [direccion=SE, velocidad=20, periodo=00-06], Viento [direccion=SE, velocidad=15, periodo=06-12], Viento [direccion=NE, velocidad=5, periodo=12-18], Viento [direccion=C, velocidad=0, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=17, minima=11, dato=[Dato [value=13, hora=6], Dato [value=16, hora=12], Dato [value=14, hora=18], Dato [value=11, hora=24]]],
+ SensTermica [maxima=17, minima=11],
+ HumedadRelativa [maxima=90, minima=80],
+ uvMax =2,
+ fecha = 2024-11-01T00:00:00
+], Dia [
+[ProbPrecipitacion [value=25, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=20, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=20, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=15, periodo=00-24, descripcion=Muy nuboso], EstadoCielo [value=14, periodo=00-12, descripcion=Nuboso], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso], EstadoCielo [value=81n, periodo=00-06, descripcion=Niebla ], EstadoCielo [value=14, periodo=06-12, descripcion=Nuboso], EstadoCielo [value=15, periodo=12-18, descripcion=Muy nuboso], EstadoCielo [value=12n, periodo=18-24, descripcion=Poco nuboso]],
+ [Viento [direccion=C, velocidad=0, periodo=00-24], Viento [direccion=C, velocidad=0, periodo=00-12], Viento [direccion=SE, velocidad=10, periodo=12-24], Viento [direccion=C, velocidad=0, periodo=00-06], Viento [direccion=C, velocidad=0, periodo=06-12], Viento [direccion=SE, velocidad=10, periodo=12-18], Viento [direccion=E, velocidad=10, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=19, minima=8, dato=[Dato [value=9, hora=6], Dato [value=18, hora=12], Dato [value=13, hora=18], Dato [value=13, hora=24]]],
+ SensTermica [maxima=19, minima=8],
+ HumedadRelativa [maxima=100, minima=60],
+ uvMax =2,
+ fecha = 2024-11-02T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=12, periodo=00-24, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=00-12, descripcion=Poco nuboso], EstadoCielo [value=14, periodo=12-24, descripcion=Nuboso]],
+ [Viento [direccion=SE, velocidad=25, periodo=00-24], Viento [direccion=S, velocidad=25, periodo=00-12], Viento [direccion=SE, velocidad=25, periodo=12-24]],
+ [RachaMax [value=50, periodo=00-24], RachaMax [value=50, periodo=00-12], RachaMax [value=50, periodo=12-24]],
+ Temperatura [maxima=18, minima=12, dato=[]],
+ SensTermica [maxima=18, minima=12],
+ HumedadRelativa [maxima=90, minima=70],
+ uvMax =2,
+ fecha = 2024-11-03T00:00:00
+], Dia [
+[ProbPrecipitacion [value=10, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=5, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=15, periodo=00-24, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=00-12, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso]],
+ [Viento [direccion=SE, velocidad=25, periodo=00-24], Viento [direccion=SE, velocidad=25, periodo=00-12], Viento [direccion=SE, velocidad=25, periodo=12-24]],
+ [RachaMax [value=55, periodo=00-24], RachaMax [value=55, periodo=00-12], RachaMax [value=55, periodo=12-24]],
+ Temperatura [maxima=18, minima=13, dato=[]],
+ SensTermica [maxima=18, minima=13],
+ HumedadRelativa [maxima=90, minima=65],
+ uvMax =2,
+ fecha = 2024-11-04T00:00:00
+], Dia [
+[ProbPrecipitacion [value=40, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=13, periodo=null, descripcion=Intervalos nubosos]],
+ [Viento [direccion=S, velocidad=10, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=19, minima=11, dato=[]],
+ SensTermica [maxima=19, minima=11],
+ HumedadRelativa [maxima=90, minima=65],
+ uvMax =2,
+ fecha = 2024-11-05T00:00:00
+], Dia [
+[ProbPrecipitacion [value=25, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=13, periodo=null, descripcion=Intervalos nubosos]],
+ [Viento [direccion=C, velocidad=0, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=20, minima=10, dato=[]],
+ SensTermica [maxima=20, minima=10],
+ HumedadRelativa [maxima=90, minima=75],
+ uvMax =0,
+ fecha = 2024-11-06T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=15, periodo=null, descripcion=Muy nuboso]],
+ [Viento [direccion=SE, velocidad=15, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=17, minima=10, dato=[]],
+ SensTermica [maxima=17, minima=10],
+ HumedadRelativa [maxima=100, minima=70],
+ uvMax =0,
+ fecha = 2024-11-07T00:00:00
+]]
+
+
+Prediccion [Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=0, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=, periodo=00-24, descripcion=], EstadoCielo [value=, periodo=00-12, descripcion=], EstadoCielo [value=11, periodo=12-24, descripcion=Despejado], EstadoCielo [value=, periodo=00-06, descripcion=], EstadoCielo [value=11, periodo=06-12, descripcion=Despejado], EstadoCielo [value=11, periodo=12-18, descripcion=Despejado], EstadoCielo [value=11n, periodo=18-24, descripcion=Despejado]],
+ [Viento [direccion=, velocidad=0, periodo=00-24], Viento [direccion=, velocidad=0, periodo=00-12], Viento [direccion=S, velocidad=10, periodo=12-24], Viento [direccion=S, velocidad=10, periodo=00-06], Viento [direccion=S, velocidad=10, periodo=06-12], Viento [direccion=S, velocidad=5, periodo=12-18], Viento [direccion=S, velocidad=5, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=21, minima=12, dato=[Dato [value=13, hora=6], Dato [value=20, hora=12], Dato [value=16, hora=18], Dato [value=13, hora=24]]],
+ SensTermica [maxima=21, minima=12],
+ HumedadRelativa [maxima=95, minima=65],
+ uvMax =2,
+ fecha = 2024-11-01T00:00:00
+], Dia [
+[ProbPrecipitacion [value=5, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=5, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=5, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=12, periodo=00-24, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=00-12, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=12-24, descripcion=Poco nuboso], EstadoCielo [value=12n, periodo=00-06, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=06-12, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=12-18, descripcion=Poco nuboso], EstadoCielo [value=12n, periodo=18-24, descripcion=Poco nuboso]],
+ [Viento [direccion=C, velocidad=0, periodo=00-24], Viento [direccion=S, velocidad=5, periodo=00-12], Viento [direccion=C, velocidad=0, periodo=12-24], Viento [direccion=C, velocidad=0, periodo=00-06], Viento [direccion=C, velocidad=0, periodo=06-12], Viento [direccion=C, velocidad=0, periodo=12-18], Viento [direccion=S, velocidad=10, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=22, minima=11, dato=[Dato [value=11, hora=6], Dato [value=21, hora=12], Dato [value=17, hora=18], Dato [value=13, hora=24]]],
+ SensTermica [maxima=22, minima=11],
+ HumedadRelativa [maxima=100, minima=55],
+ uvMax =2,
+ fecha = 2024-11-02T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=11, periodo=00-24, descripcion=Despejado], EstadoCielo [value=11, periodo=00-12, descripcion=Despejado], EstadoCielo [value=11, periodo=12-24, descripcion=Despejado]],
+ [Viento [direccion=S, velocidad=15, periodo=00-24], Viento [direccion=S, velocidad=15, periodo=00-12], Viento [direccion=S, velocidad=15, periodo=12-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24]],
+ Temperatura [maxima=20, minima=12, dato=[]],
+ SensTermica [maxima=20, minima=12],
+ HumedadRelativa [maxima=90, minima=60],
+ uvMax =2,
+ fecha = 2024-11-03T00:00:00
+], Dia [
+[ProbPrecipitacion [value=10, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=10, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=15, periodo=00-24, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=00-12, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso]],
+ [Viento [direccion=S, velocidad=15, periodo=00-24], Viento [direccion=S, velocidad=15, periodo=00-12], Viento [direccion=S, velocidad=15, periodo=12-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24]],
+ Temperatura [maxima=20, minima=13, dato=[]],
+ SensTermica [maxima=20, minima=13],
+ HumedadRelativa [maxima=90, minima=55],
+ uvMax =2,
+ fecha = 2024-11-04T00:00:00
+], Dia [
+[ProbPrecipitacion [value=55, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=43, periodo=null, descripcion=Intervalos nubosos con lluvia escasa]],
+ [Viento [direccion=S, velocidad=15, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=23, minima=12, dato=[]],
+ SensTermica [maxima=23, minima=12],
+ HumedadRelativa [maxima=85, minima=55],
+ uvMax =2,
+ fecha = 2024-11-05T00:00:00
+], Dia [
+[ProbPrecipitacion [value=25, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=13, periodo=null, descripcion=Intervalos nubosos]],
+ [Viento [direccion=C, velocidad=0, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=22, minima=11, dato=[]],
+ SensTermica [maxima=22, minima=11],
+ HumedadRelativa [maxima=85, minima=65],
+ uvMax =0,
+ fecha = 2024-11-06T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=14, periodo=null, descripcion=Nuboso]],
+ [Viento [direccion=S, velocidad=15, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=20, minima=11, dato=[]],
+ SensTermica [maxima=20, minima=11],
+ HumedadRelativa [maxima=95, minima=70],
+ uvMax =0,
+ fecha = 2024-11-07T00:00:00
+]]
+
+
+Prediccion [Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=0, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=, periodo=00-24, descripcion=], EstadoCielo [value=, periodo=00-12, descripcion=], EstadoCielo [value=12, periodo=12-24, descripcion=Poco nuboso], EstadoCielo [value=81n, periodo=00-06, descripcion=Niebla ], EstadoCielo [value=15, periodo=06-12, descripcion=Muy nuboso], EstadoCielo [value=12, periodo=12-18, descripcion=Poco nuboso], EstadoCielo [value=82n, periodo=18-24, descripcion=Bruma]],
+ [Viento [direccion=, velocidad=0, periodo=00-24], Viento [direccion=, velocidad=0, periodo=00-12], Viento [direccion=S, velocidad=10, periodo=12-24], Viento [direccion=C, velocidad=0, periodo=00-06], Viento [direccion=S, velocidad=10, periodo=06-12], Viento [direccion=C, velocidad=0, periodo=12-18], Viento [direccion=C, velocidad=0, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=18, minima=10, dato=[Dato [value=12, hora=6], Dato [value=16, hora=12], Dato [value=14, hora=18], Dato [value=11, hora=24]]],
+ SensTermica [maxima=18, minima=10],
+ HumedadRelativa [maxima=100, minima=75],
+ uvMax =2,
+ fecha = 2024-11-01T00:00:00
+], Dia [
+[ProbPrecipitacion [value=10, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=10, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=10, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=14, periodo=00-24, descripcion=Nuboso], EstadoCielo [value=15, periodo=00-12, descripcion=Muy nuboso], EstadoCielo [value=14, periodo=12-24, descripcion=Nuboso], EstadoCielo [value=81n, periodo=00-06, descripcion=Niebla ], EstadoCielo [value=15, periodo=06-12, descripcion=Muy nuboso], EstadoCielo [value=14, periodo=12-18, descripcion=Nuboso], EstadoCielo [value=14n, periodo=18-24, descripcion=Nuboso]],
+ [Viento [direccion=C, velocidad=0, periodo=00-24], Viento [direccion=C, velocidad=0, periodo=00-12], Viento [direccion=C, velocidad=0, periodo=12-24], Viento [direccion=C, velocidad=0, periodo=00-06], Viento [direccion=C, velocidad=0, periodo=06-12], Viento [direccion=C, velocidad=0, periodo=12-18], Viento [direccion=C, velocidad=0, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=18, minima=8, dato=[Dato [value=10, hora=6], Dato [value=16, hora=12], Dato [value=14, hora=18], Dato [value=10, hora=24]]],
+ SensTermica [maxima=18, minima=8],
+ HumedadRelativa [maxima=100, minima=60],
+ uvMax =2,
+ fecha = 2024-11-02T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=12, periodo=00-24, descripcion=Poco nuboso], EstadoCielo [value=14, periodo=00-12, descripcion=Nuboso], EstadoCielo [value=12, periodo=12-24, descripcion=Poco nuboso]],
+ [Viento [direccion=S, velocidad=10, periodo=00-24], Viento [direccion=S, velocidad=10, periodo=00-12], Viento [direccion=S, velocidad=10, periodo=12-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24]],
+ Temperatura [maxima=18, minima=9, dato=[]],
+ SensTermica [maxima=18, minima=9],
+ HumedadRelativa [maxima=100, minima=70],
+ uvMax =2,
+ fecha = 2024-11-03T00:00:00
+], Dia [
+[ProbPrecipitacion [value=15, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=10, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=14, periodo=00-24, descripcion=Nuboso], EstadoCielo [value=14, periodo=00-12, descripcion=Nuboso], EstadoCielo [value=14, periodo=12-24, descripcion=Nuboso]],
+ [Viento [direccion=S, velocidad=15, periodo=00-24], Viento [direccion=S, velocidad=15, periodo=00-12], Viento [direccion=S, velocidad=15, periodo=12-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24]],
+ Temperatura [maxima=18, minima=10, dato=[]],
+ SensTermica [maxima=18, minima=10],
+ HumedadRelativa [maxima=100, minima=65],
+ uvMax =2,
+ fecha = 2024-11-04T00:00:00
+], Dia [
+[ProbPrecipitacion [value=50, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=15, periodo=null, descripcion=Muy nuboso]],
+ [Viento [direccion=SO, velocidad=15, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=19, minima=10, dato=[]],
+ SensTermica [maxima=19, minima=10],
+ HumedadRelativa [maxima=100, minima=65],
+ uvMax =2,
+ fecha = 2024-11-05T00:00:00
+], Dia [
+[ProbPrecipitacion [value=25, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=13, periodo=null, descripcion=Intervalos nubosos]],
+ [Viento [direccion=C, velocidad=0, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=19, minima=9, dato=[]],
+ SensTermica [maxima=19, minima=9],
+ HumedadRelativa [maxima=100, minima=80],
+ uvMax =0,
+ fecha = 2024-11-06T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=15, periodo=null, descripcion=Muy nuboso]],
+ [Viento [direccion=S, velocidad=10, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=16, minima=9, dato=[]],
+ SensTermica [maxima=16, minima=9],
+ HumedadRelativa [maxima=100, minima=85],
+ uvMax =0,
+ fecha = 2024-11-07T00:00:00
+]]
+
+
+Prediccion [Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=0, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=, periodo=00-24, descripcion=], EstadoCielo [value=, periodo=00-12, descripcion=], EstadoCielo [value=12, periodo=12-24, descripcion=Poco nuboso], EstadoCielo [value=, periodo=00-06, descripcion=], EstadoCielo [value=12, periodo=06-12, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=12-18, descripcion=Poco nuboso], EstadoCielo [value=11n, periodo=18-24, descripcion=Despejado]],
+ [Viento [direccion=, velocidad=0, periodo=00-24], Viento [direccion=, velocidad=0, periodo=00-12], Viento [direccion=S, velocidad=10, periodo=12-24], Viento [direccion=S, velocidad=10, periodo=00-06], Viento [direccion=S, velocidad=10, periodo=06-12], Viento [direccion=S, velocidad=5, periodo=12-18], Viento [direccion=S, velocidad=10, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=20, minima=11, dato=[Dato [value=15, hora=6], Dato [value=19, hora=12], Dato [value=15, hora=18], Dato [value=12, hora=24]]],
+ SensTermica [maxima=20, minima=11],
+ HumedadRelativa [maxima=95, minima=65],
+ uvMax =2,
+ fecha = 2024-11-01T00:00:00
+], Dia [
+[ProbPrecipitacion [value=15, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=10, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=10, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=13, periodo=00-24, descripcion=Intervalos nubosos], EstadoCielo [value=12, periodo=00-12, descripcion=Poco nuboso], EstadoCielo [value=13, periodo=12-24, descripcion=Intervalos nubosos], EstadoCielo [value=12n, periodo=00-06, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=06-12, descripcion=Poco nuboso], EstadoCielo [value=13, periodo=12-18, descripcion=Intervalos nubosos], EstadoCielo [value=12n, periodo=18-24, descripcion=Poco nuboso]],
+ [Viento [direccion=C, velocidad=0, periodo=00-24], Viento [direccion=S, velocidad=10, periodo=00-12], Viento [direccion=C, velocidad=0, periodo=12-24], Viento [direccion=C, velocidad=0, periodo=00-06], Viento [direccion=C, velocidad=0, periodo=06-12], Viento [direccion=C, velocidad=0, periodo=12-18], Viento [direccion=S, velocidad=10, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=21, minima=9, dato=[Dato [value=10, hora=6], Dato [value=20, hora=12], Dato [value=16, hora=18], Dato [value=14, hora=24]]],
+ SensTermica [maxima=21, minima=9],
+ HumedadRelativa [maxima=100, minima=60],
+ uvMax =2,
+ fecha = 2024-11-02T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=12, periodo=00-24, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=00-12, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=12-24, descripcion=Poco nuboso]],
+ [Viento [direccion=S, velocidad=20, periodo=00-24], Viento [direccion=S, velocidad=20, periodo=00-12], Viento [direccion=S, velocidad=20, periodo=12-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24]],
+ Temperatura [maxima=21, minima=13, dato=[]],
+ SensTermica [maxima=21, minima=13],
+ HumedadRelativa [maxima=85, minima=60],
+ uvMax =2,
+ fecha = 2024-11-03T00:00:00
+], Dia [
+[ProbPrecipitacion [value=5, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=5, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=15, periodo=00-24, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=00-12, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso]],
+ [Viento [direccion=S, velocidad=20, periodo=00-24], Viento [direccion=S, velocidad=20, periodo=00-12], Viento [direccion=S, velocidad=20, periodo=12-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24]],
+ Temperatura [maxima=20, minima=15, dato=[]],
+ SensTermica [maxima=20, minima=15],
+ HumedadRelativa [maxima=85, minima=60],
+ uvMax =2,
+ fecha = 2024-11-04T00:00:00
+], Dia [
+[ProbPrecipitacion [value=40, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=13, periodo=null, descripcion=Intervalos nubosos]],
+ [Viento [direccion=S, velocidad=15, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=21, minima=12, dato=[]],
+ SensTermica [maxima=21, minima=12],
+ HumedadRelativa [maxima=90, minima=60],
+ uvMax =2,
+ fecha = 2024-11-05T00:00:00
+], Dia [
+[ProbPrecipitacion [value=30, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=13, periodo=null, descripcion=Intervalos nubosos]],
+ [Viento [direccion=C, velocidad=0, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=22, minima=11, dato=[]],
+ SensTermica [maxima=22, minima=11],
+ HumedadRelativa [maxima=90, minima=70],
+ uvMax =0,
+ fecha = 2024-11-06T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=12, periodo=null, descripcion=Poco nuboso]],
+ [Viento [direccion=S, velocidad=15, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=21, minima=10, dato=[]],
+ SensTermica [maxima=21, minima=10],
+ HumedadRelativa [maxima=95, minima=65],
+ uvMax =0,
+ fecha = 2024-11-07T00:00:00
+]]
+
+
+Prediccion [Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=0, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=, periodo=00-24, descripcion=], EstadoCielo [value=, periodo=00-12, descripcion=], EstadoCielo [value=12, periodo=12-24, descripcion=Poco nuboso], EstadoCielo [value=82n, periodo=00-06, descripcion=Bruma], EstadoCielo [value=14, periodo=06-12, descripcion=Nuboso], EstadoCielo [value=12, periodo=12-18, descripcion=Poco nuboso], EstadoCielo [value=12n, periodo=18-24, descripcion=Poco nuboso]],
+ [Viento [direccion=, velocidad=0, periodo=00-24], Viento [direccion=, velocidad=0, periodo=00-12], Viento [direccion=NO, velocidad=5, periodo=12-24], Viento [direccion=C, velocidad=0, periodo=00-06], Viento [direccion=C, velocidad=0, periodo=06-12], Viento [direccion=NO, velocidad=5, periodo=12-18], Viento [direccion=C, velocidad=0, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=19, minima=10, dato=[Dato [value=13, hora=6], Dato [value=18, hora=12], Dato [value=15, hora=18], Dato [value=11, hora=24]]],
+ SensTermica [maxima=19, minima=10],
+ HumedadRelativa [maxima=95, minima=75],
+ uvMax =2,
+ fecha = 2024-11-01T00:00:00
+], Dia [
+[ProbPrecipitacion [value=20, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=20, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=20, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=15, periodo=00-24, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=00-12, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso], EstadoCielo [value=82n, periodo=00-06, descripcion=Bruma], EstadoCielo [value=15, periodo=06-12, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=12-18, descripcion=Muy nuboso], EstadoCielo [value=12n, periodo=18-24, descripcion=Poco nuboso]],
+ [Viento [direccion=C, velocidad=0, periodo=00-24], Viento [direccion=C, velocidad=0, periodo=00-12], Viento [direccion=C, velocidad=0, periodo=12-24], Viento [direccion=C, velocidad=0, periodo=00-06], Viento [direccion=C, velocidad=0, periodo=06-12], Viento [direccion=C, velocidad=0, periodo=12-18], Viento [direccion=C, velocidad=0, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=20, minima=9, dato=[Dato [value=10, hora=6], Dato [value=17, hora=12], Dato [value=14, hora=18], Dato [value=11, hora=24]]],
+ SensTermica [maxima=20, minima=9],
+ HumedadRelativa [maxima=100, minima=60],
+ uvMax =2,
+ fecha = 2024-11-02T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=12, periodo=00-24, descripcion=Poco nuboso], EstadoCielo [value=14, periodo=00-12, descripcion=Nuboso], EstadoCielo [value=12, periodo=12-24, descripcion=Poco nuboso]],
+ [Viento [direccion=S, velocidad=10, periodo=00-24], Viento [direccion=S, velocidad=10, periodo=00-12], Viento [direccion=SE, velocidad=10, periodo=12-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24]],
+ Temperatura [maxima=20, minima=10, dato=[]],
+ SensTermica [maxima=20, minima=10],
+ HumedadRelativa [maxima=95, minima=65],
+ uvMax =2,
+ fecha = 2024-11-03T00:00:00
+], Dia [
+[ProbPrecipitacion [value=5, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=5, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=14, periodo=00-24, descripcion=Nuboso], EstadoCielo [value=15, periodo=00-12, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso]],
+ [Viento [direccion=SE, velocidad=15, periodo=00-24], Viento [direccion=SE, velocidad=15, periodo=00-12], Viento [direccion=SE, velocidad=15, periodo=12-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24]],
+ Temperatura [maxima=20, minima=11, dato=[]],
+ SensTermica [maxima=20, minima=11],
+ HumedadRelativa [maxima=95, minima=60],
+ uvMax =2,
+ fecha = 2024-11-04T00:00:00
+], Dia [
+[ProbPrecipitacion [value=45, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=15, periodo=null, descripcion=Muy nuboso]],
+ [Viento [direccion=S, velocidad=10, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=20, minima=11, dato=[]],
+ SensTermica [maxima=20, minima=11],
+ HumedadRelativa [maxima=95, minima=65],
+ uvMax =2,
+ fecha = 2024-11-05T00:00:00
+], Dia [
+[ProbPrecipitacion [value=25, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=13, periodo=null, descripcion=Intervalos nubosos]],
+ [Viento [direccion=C, velocidad=0, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=21, minima=9, dato=[]],
+ SensTermica [maxima=21, minima=9],
+ HumedadRelativa [maxima=95, minima=75],
+ uvMax =0,
+ fecha = 2024-11-06T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=15, periodo=null, descripcion=Muy nuboso]],
+ [Viento [direccion=S, velocidad=10, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=18, minima=9, dato=[]],
+ SensTermica [maxima=18, minima=9],
+ HumedadRelativa [maxima=95, minima=75],
+ uvMax =0,
+ fecha = 2024-11-07T00:00:00
+]]
+
+
+Prediccion [Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=0, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=, periodo=00-24, descripcion=], EstadoCielo [value=, periodo=00-12, descripcion=], EstadoCielo [value=14, periodo=12-24, descripcion=Nuboso], EstadoCielo [value=81n, periodo=00-06, descripcion=Niebla ], EstadoCielo [value=82, periodo=06-12, descripcion=Bruma], EstadoCielo [value=14, periodo=12-18, descripcion=Nuboso], EstadoCielo [value=81n, periodo=18-24, descripcion=Niebla ]],
+ [Viento [direccion=, velocidad=0, periodo=00-24], Viento [direccion=, velocidad=0, periodo=00-12], Viento [direccion=SE, velocidad=15, periodo=12-24], Viento [direccion=SE, velocidad=20, periodo=00-06], Viento [direccion=SE, velocidad=15, periodo=06-12], Viento [direccion=C, velocidad=0, periodo=12-18], Viento [direccion=O, velocidad=5, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=16, minima=11, dato=[Dato [value=12, hora=6], Dato [value=14, hora=12], Dato [value=13, hora=18], Dato [value=12, hora=24]]],
+ SensTermica [maxima=16, minima=11],
+ HumedadRelativa [maxima=95, minima=80],
+ uvMax =2,
+ fecha = 2024-11-01T00:00:00
+], Dia [
+[ProbPrecipitacion [value=25, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=20, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=15, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=15, periodo=00-24, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=00-12, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso], EstadoCielo [value=81n, periodo=00-06, descripcion=Niebla ], EstadoCielo [value=15, periodo=06-12, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=12-18, descripcion=Muy nuboso], EstadoCielo [value=82n, periodo=18-24, descripcion=Bruma]],
+ [Viento [direccion=C, velocidad=0, periodo=00-24], Viento [direccion=O, velocidad=5, periodo=00-12], Viento [direccion=C, velocidad=0, periodo=12-24], Viento [direccion=NO, velocidad=5, periodo=00-06], Viento [direccion=C, velocidad=0, periodo=06-12], Viento [direccion=C, velocidad=0, periodo=12-18], Viento [direccion=S, velocidad=15, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=18, minima=9, dato=[Dato [value=10, hora=6], Dato [value=17, hora=12], Dato [value=13, hora=18], Dato [value=12, hora=24]]],
+ SensTermica [maxima=18, minima=9],
+ HumedadRelativa [maxima=100, minima=70],
+ uvMax =2,
+ fecha = 2024-11-02T00:00:00
+], Dia [
+[ProbPrecipitacion [value=5, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=15, periodo=00-24, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=00-12, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso]],
+ [Viento [direccion=SE, velocidad=25, periodo=00-24], Viento [direccion=SE, velocidad=25, periodo=00-12], Viento [direccion=SE, velocidad=25, periodo=12-24]],
+ [RachaMax [value=55, periodo=00-24], RachaMax [value=55, periodo=00-12], RachaMax [value=55, periodo=12-24]],
+ Temperatura [maxima=17, minima=11, dato=[]],
+ SensTermica [maxima=17, minima=11],
+ HumedadRelativa [maxima=95, minima=70],
+ uvMax =2,
+ fecha = 2024-11-03T00:00:00
+], Dia [
+[ProbPrecipitacion [value=60, periodo=00-24], ProbPrecipitacion [value=55, periodo=00-12], ProbPrecipitacion [value=5, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=45, periodo=00-24, descripcion=Muy nuboso con lluvia escasa], EstadoCielo [value=45, periodo=00-12, descripcion=Muy nuboso con lluvia escasa], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso]],
+ [Viento [direccion=SE, velocidad=25, periodo=00-24], Viento [direccion=SE, velocidad=25, periodo=00-12], Viento [direccion=SE, velocidad=25, periodo=12-24]],
+ [RachaMax [value=60, periodo=00-24], RachaMax [value=60, periodo=00-12], RachaMax [value=60, periodo=12-24]],
+ Temperatura [maxima=16, minima=12, dato=[]],
+ SensTermica [maxima=16, minima=12],
+ HumedadRelativa [maxima=95, minima=70],
+ uvMax =2,
+ fecha = 2024-11-04T00:00:00
+], Dia [
+[ProbPrecipitacion [value=45, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=14, periodo=null, descripcion=Nuboso]],
+ [Viento [direccion=S, velocidad=10, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=18, minima=11, dato=[]],
+ SensTermica [maxima=18, minima=11],
+ HumedadRelativa [maxima=90, minima=75],
+ uvMax =2,
+ fecha = 2024-11-05T00:00:00
+], Dia [
+[ProbPrecipitacion [value=20, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=13, periodo=null, descripcion=Intervalos nubosos]],
+ [Viento [direccion=C, velocidad=0, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=19, minima=11, dato=[]],
+ SensTermica [maxima=19, minima=11],
+ HumedadRelativa [maxima=95, minima=75],
+ uvMax =0,
+ fecha = 2024-11-06T00:00:00
+], Dia [
+[ProbPrecipitacion [value=10, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=16, periodo=null, descripcion=Cubierto]],
+ [Viento [direccion=SE, velocidad=15, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=15, minima=11, dato=[]],
+ SensTermica [maxima=15, minima=11],
+ HumedadRelativa [maxima=90, minima=80],
+ uvMax =0,
+ fecha = 2024-11-07T00:00:00
+]]
+
+
+Prediccion [Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=0, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=, periodo=00-24, descripcion=], EstadoCielo [value=, periodo=00-12, descripcion=], EstadoCielo [value=12, periodo=12-24, descripcion=Poco nuboso], EstadoCielo [value=, periodo=00-06, descripcion=], EstadoCielo [value=12, periodo=06-12, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=12-18, descripcion=Poco nuboso], EstadoCielo [value=11n, periodo=18-24, descripcion=Despejado]],
+ [Viento [direccion=, velocidad=0, periodo=00-24], Viento [direccion=, velocidad=0, periodo=00-12], Viento [direccion=SE, velocidad=15, periodo=12-24], Viento [direccion=NE, velocidad=10, periodo=00-06], Viento [direccion=SE, velocidad=15, periodo=06-12], Viento [direccion=NE, velocidad=10, periodo=12-18], Viento [direccion=C, velocidad=0, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=18, minima=10, dato=[Dato [value=13, hora=6], Dato [value=17, hora=12], Dato [value=14, hora=18], Dato [value=11, hora=24]]],
+ SensTermica [maxima=18, minima=10],
+ HumedadRelativa [maxima=90, minima=70],
+ uvMax =2,
+ fecha = 2024-11-01T00:00:00
+], Dia [
+[ProbPrecipitacion [value=25, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=20, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=20, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=14, periodo=00-24, descripcion=Nuboso], EstadoCielo [value=15, periodo=00-12, descripcion=Muy nuboso], EstadoCielo [value=14, periodo=12-24, descripcion=Nuboso], EstadoCielo [value=81n, periodo=00-06, descripcion=Niebla ], EstadoCielo [value=15, periodo=06-12, descripcion=Muy nuboso], EstadoCielo [value=14, periodo=12-18, descripcion=Nuboso], EstadoCielo [value=12n, periodo=18-24, descripcion=Poco nuboso]],
+ [Viento [direccion=C, velocidad=0, periodo=00-24], Viento [direccion=C, velocidad=0, periodo=00-12], Viento [direccion=C, velocidad=0, periodo=12-24], Viento [direccion=C, velocidad=0, periodo=00-06], Viento [direccion=C, velocidad=0, periodo=06-12], Viento [direccion=C, velocidad=0, periodo=12-18], Viento [direccion=E, velocidad=10, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=19, minima=8, dato=[Dato [value=9, hora=6], Dato [value=17, hora=12], Dato [value=14, hora=18], Dato [value=12, hora=24]]],
+ SensTermica [maxima=19, minima=8],
+ HumedadRelativa [maxima=100, minima=60],
+ uvMax =2,
+ fecha = 2024-11-02T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=12, periodo=00-24, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=00-12, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=12-24, descripcion=Poco nuboso]],
+ [Viento [direccion=SE, velocidad=20, periodo=00-24], Viento [direccion=SE, velocidad=20, periodo=00-12], Viento [direccion=SE, velocidad=20, periodo=12-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24]],
+ Temperatura [maxima=19, minima=11, dato=[]],
+ SensTermica [maxima=19, minima=11],
+ HumedadRelativa [maxima=90, minima=65],
+ uvMax =2,
+ fecha = 2024-11-03T00:00:00
+], Dia [
+[ProbPrecipitacion [value=10, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=10, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=15, periodo=00-24, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=00-12, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso]],
+ [Viento [direccion=SE, velocidad=20, periodo=00-24], Viento [direccion=SE, velocidad=20, periodo=00-12], Viento [direccion=SE, velocidad=20, periodo=12-24]],
+ [RachaMax [value=45, periodo=00-24], RachaMax [value=45, periodo=00-12], RachaMax [value=45, periodo=12-24]],
+ Temperatura [maxima=18, minima=13, dato=[]],
+ SensTermica [maxima=18, minima=13],
+ HumedadRelativa [maxima=95, minima=65],
+ uvMax =2,
+ fecha = 2024-11-04T00:00:00
+], Dia [
+[ProbPrecipitacion [value=40, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=14, periodo=null, descripcion=Nuboso]],
+ [Viento [direccion=S, velocidad=10, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=20, minima=10, dato=[]],
+ SensTermica [maxima=20, minima=10],
+ HumedadRelativa [maxima=90, minima=65],
+ uvMax =2,
+ fecha = 2024-11-05T00:00:00
+], Dia [
+[ProbPrecipitacion [value=25, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=13, periodo=null, descripcion=Intervalos nubosos]],
+ [Viento [direccion=C, velocidad=0, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=20, minima=9, dato=[]],
+ SensTermica [maxima=20, minima=9],
+ HumedadRelativa [maxima=90, minima=75],
+ uvMax =0,
+ fecha = 2024-11-06T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=14, periodo=null, descripcion=Nuboso]],
+ [Viento [direccion=SE, velocidad=15, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=18, minima=9, dato=[]],
+ SensTermica [maxima=18, minima=9],
+ HumedadRelativa [maxima=100, minima=70],
+ uvMax =0,
+ fecha = 2024-11-07T00:00:00
+]]
+
+
+Prediccion [Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=0, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=, periodo=00-24, descripcion=], EstadoCielo [value=, periodo=00-12, descripcion=], EstadoCielo [value=11, periodo=12-24, descripcion=Despejado], EstadoCielo [value=, periodo=00-06, descripcion=], EstadoCielo [value=11, periodo=06-12, descripcion=Despejado], EstadoCielo [value=11, periodo=12-18, descripcion=Despejado], EstadoCielo [value=11n, periodo=18-24, descripcion=Despejado]],
+ [Viento [direccion=, velocidad=0, periodo=00-24], Viento [direccion=, velocidad=0, periodo=00-12], Viento [direccion=S, velocidad=5, periodo=12-24], Viento [direccion=C, velocidad=0, periodo=00-06], Viento [direccion=S, velocidad=5, periodo=06-12], Viento [direccion=C, velocidad=0, periodo=12-18], Viento [direccion=C, velocidad=0, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=22, minima=10, dato=[Dato [value=13, hora=6], Dato [value=20, hora=12], Dato [value=16, hora=18], Dato [value=11, hora=24]]],
+ SensTermica [maxima=22, minima=10],
+ HumedadRelativa [maxima=100, minima=65],
+ uvMax =2,
+ fecha = 2024-11-01T00:00:00
+], Dia [
+[ProbPrecipitacion [value=5, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=5, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=5, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=12, periodo=00-24, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=00-12, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=12-24, descripcion=Poco nuboso], EstadoCielo [value=12n, periodo=00-06, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=06-12, descripcion=Poco nuboso], EstadoCielo [value=82, periodo=12-18, descripcion=Bruma], EstadoCielo [value=12n, periodo=18-24, descripcion=Poco nuboso]],
+ [Viento [direccion=C, velocidad=0, periodo=00-24], Viento [direccion=C, velocidad=0, periodo=00-12], Viento [direccion=C, velocidad=0, periodo=12-24], Viento [direccion=C, velocidad=0, periodo=00-06], Viento [direccion=C, velocidad=0, periodo=06-12], Viento [direccion=C, velocidad=0, periodo=12-18], Viento [direccion=C, velocidad=0, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=23, minima=10, dato=[Dato [value=11, hora=6], Dato [value=21, hora=12], Dato [value=17, hora=18], Dato [value=12, hora=24]]],
+ SensTermica [maxima=23, minima=10],
+ HumedadRelativa [maxima=100, minima=60],
+ uvMax =2,
+ fecha = 2024-11-02T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=11, periodo=00-24, descripcion=Despejado], EstadoCielo [value=11, periodo=00-12, descripcion=Despejado], EstadoCielo [value=11, periodo=12-24, descripcion=Despejado]],
+ [Viento [direccion=S, velocidad=15, periodo=00-24], Viento [direccion=S, velocidad=15, periodo=00-12], Viento [direccion=S, velocidad=15, periodo=12-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24]],
+ Temperatura [maxima=21, minima=11, dato=[]],
+ SensTermica [maxima=21, minima=11],
+ HumedadRelativa [maxima=90, minima=55],
+ uvMax =2,
+ fecha = 2024-11-03T00:00:00
+], Dia [
+[ProbPrecipitacion [value=10, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=10, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=15, periodo=00-24, descripcion=Muy nuboso], EstadoCielo [value=14, periodo=00-12, descripcion=Nuboso], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso]],
+ [Viento [direccion=S, velocidad=15, periodo=00-24], Viento [direccion=S, velocidad=15, periodo=00-12], Viento [direccion=S, velocidad=15, periodo=12-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24]],
+ Temperatura [maxima=21, minima=12, dato=[]],
+ SensTermica [maxima=21, minima=12],
+ HumedadRelativa [maxima=90, minima=55],
+ uvMax =2,
+ fecha = 2024-11-04T00:00:00
+], Dia [
+[ProbPrecipitacion [value=55, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=43, periodo=null, descripcion=Intervalos nubosos con lluvia escasa]],
+ [Viento [direccion=SO, velocidad=15, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=24, minima=12, dato=[]],
+ SensTermica [maxima=24, minima=12],
+ HumedadRelativa [maxima=85, minima=55],
+ uvMax =2,
+ fecha = 2024-11-05T00:00:00
+], Dia [
+[ProbPrecipitacion [value=25, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=13, periodo=null, descripcion=Intervalos nubosos]],
+ [Viento [direccion=C, velocidad=0, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=23, minima=10, dato=[]],
+ SensTermica [maxima=23, minima=10],
+ HumedadRelativa [maxima=90, minima=60],
+ uvMax =0,
+ fecha = 2024-11-06T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=12, periodo=null, descripcion=Poco nuboso]],
+ [Viento [direccion=S, velocidad=15, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=21, minima=10, dato=[]],
+ SensTermica [maxima=21, minima=10],
+ HumedadRelativa [maxima=95, minima=65],
+ uvMax =0,
+ fecha = 2024-11-07T00:00:00
+]]
+
+
+Prediccion [Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=0, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=, periodo=00-24, descripcion=], EstadoCielo [value=, periodo=00-12, descripcion=], EstadoCielo [value=12, periodo=12-24, descripcion=Poco nuboso], EstadoCielo [value=, periodo=00-06, descripcion=], EstadoCielo [value=14, periodo=06-12, descripcion=Nuboso], EstadoCielo [value=12, periodo=12-18, descripcion=Poco nuboso], EstadoCielo [value=11n, periodo=18-24, descripcion=Despejado]],
+ [Viento [direccion=, velocidad=0, periodo=00-24], Viento [direccion=, velocidad=0, periodo=00-12], Viento [direccion=SE, velocidad=15, periodo=12-24], Viento [direccion=SE, velocidad=20, periodo=00-06], Viento [direccion=SE, velocidad=15, periodo=06-12], Viento [direccion=SE, velocidad=15, periodo=12-18], Viento [direccion=SE, velocidad=5, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=17, minima=10, dato=[Dato [value=13, hora=6], Dato [value=15, hora=12], Dato [value=13, hora=18], Dato [value=11, hora=24]]],
+ SensTermica [maxima=17, minima=10],
+ HumedadRelativa [maxima=90, minima=80],
+ uvMax =2,
+ fecha = 2024-11-01T00:00:00
+], Dia [
+[ProbPrecipitacion [value=25, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=25, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=25, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=14, periodo=00-24, descripcion=Nuboso], EstadoCielo [value=14, periodo=00-12, descripcion=Nuboso], EstadoCielo [value=14, periodo=12-24, descripcion=Nuboso], EstadoCielo [value=12n, periodo=00-06, descripcion=Poco nuboso], EstadoCielo [value=14, periodo=06-12, descripcion=Nuboso], EstadoCielo [value=14, periodo=12-18, descripcion=Nuboso], EstadoCielo [value=14n, periodo=18-24, descripcion=Nuboso]],
+ [Viento [direccion=C, velocidad=0, periodo=00-24], Viento [direccion=SE, velocidad=5, periodo=00-12], Viento [direccion=SE, velocidad=5, periodo=12-24], Viento [direccion=C, velocidad=0, periodo=00-06], Viento [direccion=C, velocidad=0, periodo=06-12], Viento [direccion=SE, velocidad=5, periodo=12-18], Viento [direccion=SE, velocidad=10, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=19, minima=8, dato=[Dato [value=9, hora=6], Dato [value=18, hora=12], Dato [value=13, hora=18], Dato [value=13, hora=24]]],
+ SensTermica [maxima=19, minima=8],
+ HumedadRelativa [maxima=95, minima=60],
+ uvMax =2,
+ fecha = 2024-11-02T00:00:00
+], Dia [
+[ProbPrecipitacion [value=10, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=14, periodo=00-24, descripcion=Nuboso], EstadoCielo [value=14, periodo=00-12, descripcion=Nuboso], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso]],
+ [Viento [direccion=SE, velocidad=25, periodo=00-24], Viento [direccion=SE, velocidad=25, periodo=00-12], Viento [direccion=SE, velocidad=25, periodo=12-24]],
+ [RachaMax [value=60, periodo=00-24], RachaMax [value=60, periodo=00-12], RachaMax [value=60, periodo=12-24]],
+ Temperatura [maxima=18, minima=12, dato=[]],
+ SensTermica [maxima=18, minima=12],
+ HumedadRelativa [maxima=95, minima=70],
+ uvMax =2,
+ fecha = 2024-11-03T00:00:00
+], Dia [
+[ProbPrecipitacion [value=90, periodo=00-24], ProbPrecipitacion [value=80, periodo=00-12], ProbPrecipitacion [value=10, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=45, periodo=00-24, descripcion=Muy nuboso con lluvia escasa], EstadoCielo [value=46, periodo=00-12, descripcion=Cubierto con lluvia escasa], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso]],
+ [Viento [direccion=SE, velocidad=25, periodo=00-24], Viento [direccion=SE, velocidad=25, periodo=00-12], Viento [direccion=SE, velocidad=25, periodo=12-24]],
+ [RachaMax [value=65, periodo=00-24], RachaMax [value=65, periodo=00-12], RachaMax [value=65, periodo=12-24]],
+ Temperatura [maxima=17, minima=13, dato=[]],
+ SensTermica [maxima=17, minima=13],
+ HumedadRelativa [maxima=90, minima=70],
+ uvMax =2,
+ fecha = 2024-11-04T00:00:00
+], Dia [
+[ProbPrecipitacion [value=55, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=44, periodo=null, descripcion=Nuboso con lluvia escasa]],
+ [Viento [direccion=S, velocidad=10, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=18, minima=11, dato=[]],
+ SensTermica [maxima=18, minima=11],
+ HumedadRelativa [maxima=85, minima=70],
+ uvMax =2,
+ fecha = 2024-11-05T00:00:00
+], Dia [
+[ProbPrecipitacion [value=25, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=13, periodo=null, descripcion=Intervalos nubosos]],
+ [Viento [direccion=C, velocidad=0, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=20, minima=10, dato=[]],
+ SensTermica [maxima=20, minima=10],
+ HumedadRelativa [maxima=90, minima=75],
+ uvMax =0,
+ fecha = 2024-11-06T00:00:00
+], Dia [
+[ProbPrecipitacion [value=10, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=15, periodo=null, descripcion=Muy nuboso]],
+ [Viento [direccion=SE, velocidad=15, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=16, minima=10, dato=[]],
+ SensTermica [maxima=16, minima=10],
+ HumedadRelativa [maxima=90, minima=70],
+ uvMax =0,
+ fecha = 2024-11-07T00:00:00
+]]
+
+
+Prediccion [Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=0, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=, periodo=00-24, descripcion=], EstadoCielo [value=, periodo=00-12, descripcion=], EstadoCielo [value=11, periodo=12-24, descripcion=Despejado], EstadoCielo [value=, periodo=00-06, descripcion=], EstadoCielo [value=11, periodo=06-12, descripcion=Despejado], EstadoCielo [value=11, periodo=12-18, descripcion=Despejado], EstadoCielo [value=11n, periodo=18-24, descripcion=Despejado]],
+ [Viento [direccion=, velocidad=0, periodo=00-24], Viento [direccion=, velocidad=0, periodo=00-12], Viento [direccion=S, velocidad=10, periodo=12-24], Viento [direccion=S, velocidad=10, periodo=00-06], Viento [direccion=S, velocidad=10, periodo=06-12], Viento [direccion=S, velocidad=10, periodo=12-18], Viento [direccion=C, velocidad=0, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=20, minima=11, dato=[Dato [value=13, hora=6], Dato [value=19, hora=12], Dato [value=16, hora=18], Dato [value=12, hora=24]]],
+ SensTermica [maxima=20, minima=11],
+ HumedadRelativa [maxima=85, minima=70],
+ uvMax =2,
+ fecha = 2024-11-01T00:00:00
+], Dia [
+[ProbPrecipitacion [value=10, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=10, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=10, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=13, periodo=00-24, descripcion=Intervalos nubosos], EstadoCielo [value=12, periodo=00-12, descripcion=Poco nuboso], EstadoCielo [value=13, periodo=12-24, descripcion=Intervalos nubosos], EstadoCielo [value=12n, periodo=00-06, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=06-12, descripcion=Poco nuboso], EstadoCielo [value=13, periodo=12-18, descripcion=Intervalos nubosos], EstadoCielo [value=12n, periodo=18-24, descripcion=Poco nuboso]],
+ [Viento [direccion=C, velocidad=0, periodo=00-24], Viento [direccion=C, velocidad=0, periodo=00-12], Viento [direccion=C, velocidad=0, periodo=12-24], Viento [direccion=C, velocidad=0, periodo=00-06], Viento [direccion=C, velocidad=0, periodo=06-12], Viento [direccion=C, velocidad=0, periodo=12-18], Viento [direccion=S, velocidad=15, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=21, minima=10, dato=[Dato [value=11, hora=6], Dato [value=20, hora=12], Dato [value=17, hora=18], Dato [value=12, hora=24]]],
+ SensTermica [maxima=21, minima=10],
+ HumedadRelativa [maxima=85, minima=60],
+ uvMax =2,
+ fecha = 2024-11-02T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=11, periodo=00-24, descripcion=Despejado], EstadoCielo [value=11, periodo=00-12, descripcion=Despejado], EstadoCielo [value=11, periodo=12-24, descripcion=Despejado]],
+ [Viento [direccion=S, velocidad=15, periodo=00-24], Viento [direccion=S, velocidad=15, periodo=00-12], Viento [direccion=S, velocidad=15, periodo=12-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24]],
+ Temperatura [maxima=20, minima=11, dato=[]],
+ SensTermica [maxima=20, minima=11],
+ HumedadRelativa [maxima=85, minima=60],
+ uvMax =2,
+ fecha = 2024-11-03T00:00:00
+], Dia [
+[ProbPrecipitacion [value=15, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=15, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=15, periodo=00-24, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=00-12, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso]],
+ [Viento [direccion=S, velocidad=15, periodo=00-24], Viento [direccion=S, velocidad=15, periodo=00-12], Viento [direccion=S, velocidad=15, periodo=12-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24]],
+ Temperatura [maxima=19, minima=12, dato=[]],
+ SensTermica [maxima=19, minima=12],
+ HumedadRelativa [maxima=90, minima=55],
+ uvMax =2,
+ fecha = 2024-11-04T00:00:00
+], Dia [
+[ProbPrecipitacion [value=50, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=43, periodo=null, descripcion=Intervalos nubosos con lluvia escasa]],
+ [Viento [direccion=S, velocidad=15, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=22, minima=12, dato=[]],
+ SensTermica [maxima=22, minima=12],
+ HumedadRelativa [maxima=85, minima=55],
+ uvMax =2,
+ fecha = 2024-11-05T00:00:00
+], Dia [
+[ProbPrecipitacion [value=30, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=13, periodo=null, descripcion=Intervalos nubosos]],
+ [Viento [direccion=C, velocidad=0, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=21, minima=10, dato=[]],
+ SensTermica [maxima=21, minima=10],
+ HumedadRelativa [maxima=85, minima=65],
+ uvMax =0,
+ fecha = 2024-11-06T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=12, periodo=null, descripcion=Poco nuboso]],
+ [Viento [direccion=S, velocidad=15, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=20, minima=10, dato=[]],
+ SensTermica [maxima=20, minima=10],
+ HumedadRelativa [maxima=90, minima=70],
+ uvMax =0,
+ fecha = 2024-11-07T00:00:00
+]]
+
+
+Prediccion [Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=15, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=15, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=, periodo=00-24, descripcion=], EstadoCielo [value=, periodo=00-12, descripcion=], EstadoCielo [value=14, periodo=12-24, descripcion=Nuboso], EstadoCielo [value=82n, periodo=00-06, descripcion=Bruma], EstadoCielo [value=16, periodo=06-12, descripcion=Cubierto], EstadoCielo [value=14, periodo=12-18, descripcion=Nuboso], EstadoCielo [value=81n, periodo=18-24, descripcion=Niebla ]],
+ [Viento [direccion=, velocidad=0, periodo=00-24], Viento [direccion=, velocidad=0, periodo=00-12], Viento [direccion=E, velocidad=20, periodo=12-24], Viento [direccion=E, velocidad=15, periodo=00-06], Viento [direccion=E, velocidad=20, periodo=06-12], Viento [direccion=E, velocidad=10, periodo=12-18], Viento [direccion=E, velocidad=5, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=19, minima=11, dato=[Dato [value=13, hora=6], Dato [value=17, hora=12], Dato [value=15, hora=18], Dato [value=11, hora=24]]],
+ SensTermica [maxima=19, minima=11],
+ HumedadRelativa [maxima=100, minima=75],
+ uvMax =2,
+ fecha = 2024-11-01T00:00:00
+], Dia [
+[ProbPrecipitacion [value=30, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=25, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=25, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=15, periodo=00-24, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=00-12, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso], EstadoCielo [value=16n, periodo=00-06, descripcion=Cubierto], EstadoCielo [value=15, periodo=06-12, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=12-18, descripcion=Muy nuboso], EstadoCielo [value=82n, periodo=18-24, descripcion=Bruma]],
+ [Viento [direccion=C, velocidad=0, periodo=00-24], Viento [direccion=E, velocidad=5, periodo=00-12], Viento [direccion=E, velocidad=5, periodo=12-24], Viento [direccion=C, velocidad=0, periodo=00-06], Viento [direccion=C, velocidad=0, periodo=06-12], Viento [direccion=E, velocidad=5, periodo=12-18], Viento [direccion=E, velocidad=15, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=18, minima=8, dato=[Dato [value=9, hora=6], Dato [value=16, hora=12], Dato [value=14, hora=18], Dato [value=12, hora=24]]],
+ SensTermica [maxima=18, minima=8],
+ HumedadRelativa [maxima=100, minima=75],
+ uvMax =2,
+ fecha = 2024-11-02T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=14, periodo=00-24, descripcion=Nuboso], EstadoCielo [value=15, periodo=00-12, descripcion=Muy nuboso], EstadoCielo [value=12, periodo=12-24, descripcion=Poco nuboso]],
+ [Viento [direccion=E, velocidad=15, periodo=00-24], Viento [direccion=E, velocidad=15, periodo=00-12], Viento [direccion=E, velocidad=20, periodo=12-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24]],
+ Temperatura [maxima=20, minima=10, dato=[]],
+ SensTermica [maxima=20, minima=10],
+ HumedadRelativa [maxima=100, minima=65],
+ uvMax =2,
+ fecha = 2024-11-03T00:00:00
+], Dia [
+[ProbPrecipitacion [value=10, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=10, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=15, periodo=00-24, descripcion=Muy nuboso], EstadoCielo [value=14, periodo=00-12, descripcion=Nuboso], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso]],
+ [Viento [direccion=E, velocidad=20, periodo=00-24], Viento [direccion=E, velocidad=20, periodo=00-12], Viento [direccion=E, velocidad=20, periodo=12-24]],
+ [RachaMax [value=40, periodo=00-24], RachaMax [value=40, periodo=00-12], RachaMax [value=40, periodo=12-24]],
+ Temperatura [maxima=20, minima=11, dato=[]],
+ SensTermica [maxima=20, minima=11],
+ HumedadRelativa [maxima=95, minima=60],
+ uvMax =2,
+ fecha = 2024-11-04T00:00:00
+], Dia [
+[ProbPrecipitacion [value=70, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=44, periodo=null, descripcion=Nuboso con lluvia escasa]],
+ [Viento [direccion=E, velocidad=10, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=19, minima=11, dato=[]],
+ SensTermica [maxima=19, minima=11],
+ HumedadRelativa [maxima=90, minima=75],
+ uvMax =2,
+ fecha = 2024-11-05T00:00:00
+], Dia [
+[ProbPrecipitacion [value=20, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=13, periodo=null, descripcion=Intervalos nubosos]],
+ [Viento [direccion=O, velocidad=5, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=20, minima=9, dato=[]],
+ SensTermica [maxima=20, minima=9],
+ HumedadRelativa [maxima=90, minima=70],
+ uvMax =0,
+ fecha = 2024-11-06T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=15, periodo=null, descripcion=Muy nuboso]],
+ [Viento [direccion=E, velocidad=15, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=17, minima=9, dato=[]],
+ SensTermica [maxima=17, minima=9],
+ HumedadRelativa [maxima=100, minima=90],
+ uvMax =0,
+ fecha = 2024-11-07T00:00:00
+]]
+
+
+Prediccion [Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=0, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=, periodo=00-24, descripcion=], EstadoCielo [value=, periodo=00-12, descripcion=], EstadoCielo [value=12, periodo=12-24, descripcion=Poco nuboso], EstadoCielo [value=, periodo=00-06, descripcion=], EstadoCielo [value=12, periodo=06-12, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=12-18, descripcion=Poco nuboso], EstadoCielo [value=11n, periodo=18-24, descripcion=Despejado]],
+ [Viento [direccion=, velocidad=0, periodo=00-24], Viento [direccion=, velocidad=0, periodo=00-12], Viento [direccion=SE, velocidad=15, periodo=12-24], Viento [direccion=E, velocidad=10, periodo=00-06], Viento [direccion=SE, velocidad=15, periodo=06-12], Viento [direccion=C, velocidad=0, periodo=12-18], Viento [direccion=C, velocidad=0, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=17, minima=10, dato=[Dato [value=13, hora=6], Dato [value=17, hora=12], Dato [value=13, hora=18], Dato [value=10, hora=24]]],
+ SensTermica [maxima=17, minima=10],
+ HumedadRelativa [maxima=95, minima=80],
+ uvMax =2,
+ fecha = 2024-11-01T00:00:00
+], Dia [
+[ProbPrecipitacion [value=40, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=35, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=35, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=14, periodo=00-24, descripcion=Nuboso], EstadoCielo [value=14, periodo=00-12, descripcion=Nuboso], EstadoCielo [value=14, periodo=12-24, descripcion=Nuboso], EstadoCielo [value=81n, periodo=00-06, descripcion=Niebla ], EstadoCielo [value=14, periodo=06-12, descripcion=Nuboso], EstadoCielo [value=14, periodo=12-18, descripcion=Nuboso], EstadoCielo [value=12n, periodo=18-24, descripcion=Poco nuboso]],
+ [Viento [direccion=C, velocidad=0, periodo=00-24], Viento [direccion=C, velocidad=0, periodo=00-12], Viento [direccion=C, velocidad=0, periodo=12-24], Viento [direccion=C, velocidad=0, periodo=00-06], Viento [direccion=C, velocidad=0, periodo=06-12], Viento [direccion=C, velocidad=0, periodo=12-18], Viento [direccion=E, velocidad=5, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ Temperatura [maxima=19, minima=8, dato=[Dato [value=9, hora=6], Dato [value=18, hora=12], Dato [value=14, hora=18], Dato [value=13, hora=24]]],
+ SensTermica [maxima=19, minima=8],
+ HumedadRelativa [maxima=100, minima=65],
+ uvMax =2,
+ fecha = 2024-11-02T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=12, periodo=00-24, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=00-12, descripcion=Poco nuboso], EstadoCielo [value=12, periodo=12-24, descripcion=Poco nuboso]],
+ [Viento [direccion=SE, velocidad=20, periodo=00-24], Viento [direccion=SE, velocidad=20, periodo=00-12], Viento [direccion=SE, velocidad=20, periodo=12-24]],
+ [RachaMax [value=45, periodo=00-24], RachaMax [value=45, periodo=00-12], RachaMax [value=45, periodo=12-24]],
+ Temperatura [maxima=18, minima=12, dato=[]],
+ SensTermica [maxima=18, minima=12],
+ HumedadRelativa [maxima=90, minima=70],
+ uvMax =2,
+ fecha = 2024-11-03T00:00:00
+], Dia [
+[ProbPrecipitacion [value=10, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=10, periodo=12-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24]],
+ [EstadoCielo [value=15, periodo=00-24, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=00-12, descripcion=Muy nuboso], EstadoCielo [value=15, periodo=12-24, descripcion=Muy nuboso]],
+ [Viento [direccion=SE, velocidad=20, periodo=00-24], Viento [direccion=SE, velocidad=20, periodo=00-12], Viento [direccion=SE, velocidad=20, periodo=12-24]],
+ [RachaMax [value=50, periodo=00-24], RachaMax [value=50, periodo=00-12], RachaMax [value=50, periodo=12-24]],
+ Temperatura [maxima=18, minima=13, dato=[]],
+ SensTermica [maxima=18, minima=13],
+ HumedadRelativa [maxima=95, minima=70],
+ uvMax =2,
+ fecha = 2024-11-04T00:00:00
+], Dia [
+[ProbPrecipitacion [value=45, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=14, periodo=null, descripcion=Nuboso]],
+ [Viento [direccion=S, velocidad=10, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=19, minima=11, dato=[]],
+ SensTermica [maxima=19, minima=11],
+ HumedadRelativa [maxima=90, minima=65],
+ uvMax =2,
+ fecha = 2024-11-05T00:00:00
+], Dia [
+[ProbPrecipitacion [value=25, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=13, periodo=null, descripcion=Intervalos nubosos]],
+ [Viento [direccion=C, velocidad=0, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=20, minima=10, dato=[]],
+ SensTermica [maxima=20, minima=10],
+ HumedadRelativa [maxima=90, minima=80],
+ uvMax =0,
+ fecha = 2024-11-06T00:00:00
+], Dia [
+[ProbPrecipitacion [value=0, periodo=null]],
+ [CotaNieveProv [value=, periodo=null]],
+ [EstadoCielo [value=14, periodo=null, descripcion=Nuboso]],
+ [Viento [direccion=S, velocidad=15, periodo=null]],
+ [RachaMax [value=, periodo=null]],
+ Temperatura [maxima=17, minima=9, dato=[]],
+ SensTermica [maxima=17, minima=9],
+ HumedadRelativa [maxima=100, minima=70],
+ uvMax =0,
+ fecha = 2024-11-07T00:00:00
+]]
+
+
+Prediccion [Dia [
+[ProbPrecipitacion [value=0, periodo=00-24], ProbPrecipitacion [value=0, periodo=00-12], ProbPrecipitacion [value=0, periodo=12-24], ProbPrecipitacion [value=0, periodo=00-06], ProbPrecipitacion [value=0, periodo=06-12], ProbPrecipitacion [value=0, periodo=12-18], ProbPrecipitacion [value=0, periodo=18-24]],
+ [CotaNieveProv [value=, periodo=00-24], CotaNieveProv [value=, periodo=00-12], CotaNieveProv [value=, periodo=12-24], CotaNieveProv [value=, periodo=00-06], CotaNieveProv [value=, periodo=06-12], CotaNieveProv [value=, periodo=12-18], CotaNieveProv [value=, periodo=18-24]],
+ [EstadoCielo [value=, periodo=00-24, descripcion=], EstadoCielo [value=, periodo=00-12, descripcion=], EstadoCielo [value=12, periodo=12-24, descripcion=Poco nuboso], EstadoCielo [value=81n, periodo=00-06, descripcion=Niebla ], EstadoCielo [value=14, periodo=06-12, descripcion=Nuboso], EstadoCielo [value=12, periodo=12-18, descripcion=Poco nuboso], EstadoCielo [value=82n, periodo=18-24, descripcion=Bruma]],
+ [Viento [direccion=, velocidad=0, periodo=00-24], Viento [direccion=, velocidad=0, periodo=00-12], Viento [direccion=C, velocidad=0, periodo=12-24], Viento [direccion=E, velocidad=5, periodo=00-06], Viento [direccion=C, velocidad=0, periodo=06-12], Viento [direccion=C, velocidad=0, periodo=12-18], Viento [direccion=C, velocidad=0, periodo=18-24]],
+ [RachaMax [value=, periodo=00-24], RachaMax [value=, periodo=00-12], RachaMax [value=, periodo=12-24], RachaMax [value=, periodo=00-06], RachaMax [value=, periodo=06-12], RachaMax [value=, periodo=12-18], RachaMax [value=, periodo=18-24]],
+ 
