@@ -10,6 +10,7 @@ Servicio REST desarrollado con Spring que expone una API con 3 endpoints princip
 
 Cliente Python/
 Cliente en Python que se conecta al servicio REST para obtener datos, ejecuta un modelo LSTM que realiza predicciones de ventas y obtiene la gráfica de predicción . Ademas contiene scripts auxiliares
+y todas las fotos de entrenamientos de los diferentes modelos
 
 Diagrama arquitectura/
 Diagrama de arquitectura.
