@@ -31,4 +31,8 @@ public class SeccionService {
 
 	        return seccionRepository.findByIdProvincias(new ArrayList<>(provincias));
 	    }
+	    
+	    public Seccion obtenerSeccionPorId(String idSeccion) {
+	        return seccionRepository.findFirstByIdSeccion(idSeccion);
+	    }
 }

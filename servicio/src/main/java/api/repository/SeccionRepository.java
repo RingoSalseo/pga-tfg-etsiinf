@@ -18,4 +18,6 @@ public interface SeccionRepository extends JpaRepository<Seccion, String> {
     @Query(value = "SELECT * FROM secciones WHERE LEFT(id_seccion, 2) IN (:provincias)", nativeQuery = true)
     List<Seccion> findByIdProvincias(@Param("provincias") List<String> provincias);
 
+    //Devuelve una seccion censal por id
+    Seccion findFirstByIdSeccion(String idSeccion);
 }

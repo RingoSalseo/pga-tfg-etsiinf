@@ -18,7 +18,6 @@ import org.springframework.web.server.ResponseStatusException;
 
 import api.dto.MedicionDTO;
 import api.model.CoordenadasGeograficas;
-import api.model.Estacion;
 import api.model.ObjetoRespuesta;
 import api.model.Seccion;
 import api.utils.CodigoAuxiliar;
@@ -38,14 +37,13 @@ public class ServicioController {
 	private static final String PASSWORD = "root";
 
 	private final SeccionService seccionService;
-	private final CodigoAuxiliar codigoAuxiliar;
-	private final EstacionService estacionService;
+	private MedicionService medicionService;
+
 
 	@Autowired
-	public ServicioController(SeccionService seccionService, CodigoAuxiliar codigoAuxiliar, EstacionService estacionService) {
+	public ServicioController(SeccionService seccionService, MedicionService medicionService) {
 		this.seccionService = seccionService;
-		this.codigoAuxiliar = codigoAuxiliar;
-		this.estacionService = estacionService;
+		this.medicionService = medicionService;
 	}
 
 	@GetMapping("/comunidad")
@@ -167,13 +165,13 @@ public class ServicioController {
 				sumaLongitudCentroide / total
 				);
 		//PARTE ESTACIONES
-		double latitudCentroide = 0, longitudCentroide = 0;
-		latitudCentroide = sumaLatitudCentroide/total;
-		longitudCentroide = sumaLongitudCentroide/total;
-		
-		List<Estacion> estaciones = estacionService.obtenerEstaciones();
-		List<Estacion> estacionesCercanasComunidad = CodigoAuxiliar.obtenerCuatroEstacionesMasCercanas(latitudCentroide, longitudCentroide, estaciones);
-		List<MedicionDTO> medicionesMediaEstacionesCercanasComunidad = codigoAuxiliar.obtenerMedicionesMediasEstacionesCercanas(idComunidad, estacionesCercanasComunidad, true);
+		double latitudCentroide = sumaLatitudCentroide / total;
+		double longitudCentroide = sumaLongitudCentroide / total;
+
+		List<MedicionDTO> medicionesMediaEstacionesCercanasComunidad =
+		    medicionService.obtenerMedicionesPorUbicacion(
+		        latitudCentroide, longitudCentroide,
+		        idComunidad, true, 4);
 
 		resultado = new ObjetoRespuesta(medicionesMediaEstacionesCercanasComunidad, mediaSeccionesComunidad);
 		return resultado;
@@ -286,131 +284,77 @@ public class ServicioController {
 				);
 
 		//PARTE ESTACIONES
-		double latitudCentroide = 0, longitudCentroide = 0;
-		latitudCentroide = sumaLatitudCentroide/total;
-		longitudCentroide = sumaLongitudCentroide/total;
+		double latitudCentroide = sumaLatitudCentroide / total;
+		double longitudCentroide = sumaLongitudCentroide / total;
 
-		List<Estacion> estaciones = estacionService.obtenerEstaciones();
-		List<Estacion> estacionesCercanas = CodigoAuxiliar.obtenerDosEstacionesMasCercanas(latitudCentroide, longitudCentroide, estaciones);
+		List<MedicionDTO> medicionesMediaEstacionesCercanas =
+		    medicionService.obtenerMedicionesPorUbicacion(
+		        latitudCentroide, longitudCentroide,
+		        idsSecciones, false, 2);
 
-		List<MedicionDTO> medicionesMediaEstacionesCercanas = codigoAuxiliar.obtenerMedicionesMediasEstacionesCercanas(idsSecciones, estacionesCercanas, false);
-
-		resultado = new ObjetoRespuesta(medicionesMediaEstacionesCercanas,seccion_res);
+		resultado = new ObjetoRespuesta(medicionesMediaEstacionesCercanas, seccion_res);
 		return resultado;
 	}
 
 	@GetMapping("/coordenadas")
 	@Operation(
-			summary = "Obtener la información relativa a las secciones y a las estaciones más cercanas en función de las coordenadas geográficas.",
-			description = "Las coordenadas geográficas deben pertenecer a un punto de la geografía española."
-			)
+	    summary = "Obtener la información relativa a las secciones y a las estaciones más cercanas en función de las coordenadas geográficas.",
+	    description = "Las coordenadas geográficas deben pertenecer a un punto de la geografía española."
+	)
 	@ApiResponses(value = {
-			@ApiResponse(responseCode = "200", description = "OK", 
-					content = @Content(mediaType = "application/json", 
-					schema = @Schema(implementation = ObjetoRespuesta.class))),
-			@ApiResponse(responseCode = "204", description = "No se encontraron secciones para las coordenadas proporcionadas."),
-			@ApiResponse(responseCode = "400", description = "Las coordenadas tienen un formato inválido o no existen estaciones cercanas a ellas.",
-			content = @Content(mediaType = "application/json")),
-			@ApiResponse(responseCode = "500", description = "Error interno del servidor.",
-			content = @Content(mediaType = "application/json"))
+	    @ApiResponse(responseCode = "200", description = "OK",
+	        content = @Content(mediaType = "application/json", schema = @Schema(implementation = ObjetoRespuesta.class))),
+	    @ApiResponse(responseCode = "204", description = "No se encontraron secciones para las coordenadas proporcionadas."),
+	    @ApiResponse(responseCode = "400", description = "Las coordenadas tienen un formato inválido o no existen estaciones cercanas a ellas.",
+	        content = @Content(mediaType = "application/json")),
+	    @ApiResponse(responseCode = "500", description = "Error interno del servidor.",
+	        content = @Content(mediaType = "application/json"))
 	})
-	public ObjetoRespuesta obtenerSeccionesPorCoordenadasGeograficas(@Parameter(
-			description = "Latitud en grados decimales. Rango válido: -90 a 90",
-			required = true,
-			example = "40.541538246225144"
-			)
-	@RequestParam(name = "latitud", defaultValue = "40.541538246225144") String latitud,
+	public ObjetoRespuesta obtenerSeccionesPorCoordenadasGeograficas(
+	    @Parameter(description = "Latitud en grados decimales. Rango válido: -90 a 90", required = true, example = "40.541538246225144")
+	    @RequestParam(name = "latitud", defaultValue = "40.541538246225144") String latitud,
 
-	@Parameter(
-			description = "Longitud en grados decimales. Rango válido: -180 a 180",
-			required = true,
-			example = "-3.8995029645066284"
-			)
-	@RequestParam(name = "longitud", defaultValue = "-3.8995029645066284") String longitud) {
+	    @Parameter(description = "Longitud en grados decimales. Rango válido: -180 a 180", required = true, example = "-3.8995029645066284")
+	    @RequestParam(name = "longitud", defaultValue = "-3.8995029645066284") String longitud) {
 
-		if (latitud.contains(",") || longitud.contains(",")) {
-			throw new ResponseStatusException(
-					HttpStatus.BAD_REQUEST, 
-					"ERROR : Los parámetros latitud y longitud no deben contener comas (,).\n"
-							+ "Debes emplear la siguiente notación : latitud=43.5 o longitud=-2.546"
-					);
-		}
+	    if (latitud.contains(",") || longitud.contains(",")) {
+	        throw new ResponseStatusException(
+	            HttpStatus.BAD_REQUEST,
+	            "ERROR : Los parámetros latitud y longitud no deben contener comas (,).\n"
+	            + "Debes emplear la siguiente notación : latitud=43.5 o longitud=-2.546"
+	        );
+	    }
 
-		double lat = Double.parseDouble(latitud);
-		double lon = Double.parseDouble(longitud);
-		System.out.println("Latitud : " + lat + "/ Longitud : " + lon);
-		ObjetoRespuesta resultado = null;
-		String id_seccion = null;
-		Point centroide_seccion = null;
-		Seccion seccion = null;
+	    double lat = Double.parseDouble(latitud);
+	    double lon = Double.parseDouble(longitud);
+	    System.out.println("Latitud : " + lat + " / Longitud : " + lon);
 
-		String querySeccion = "SELECT * FROM Secciones WHERE id_seccion = ?";	    
-		try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD);
-				PreparedStatement preparedStatement = connection.prepareStatement(querySeccion)){
-			Object[] res = CodigoAuxiliar.obtenerCusecYCoordenadasSeccion(lat,lon);
+	    Object[] res;
+	    try {
+	        res = CodigoAuxiliar.obtenerCusecYCoordenadasSeccion(lat, lon);
+	    } catch (Exception e) {
+	        throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Error al acceder al shapefile", e);
+	    }
 
-			id_seccion = (String) res[0];
-			centroide_seccion = (Point) res[1];
+	    String id_seccion = (String) res[0];
+	    Point centroide_seccion = (Point) res[1];
 
-			if(id_seccion == null) {
-				throw new ResponseStatusException(
-						HttpStatus.BAD_REQUEST,
-						"ERROR : No existe una seccion censal con coordenadas: (" + lat + ", + " + lon + ") en el Shapefile ubicando en la ruta: \n" + CodigoAuxiliar.rutaShapefile
-						);
-			}
+	    if (id_seccion == null) {
+	        throw new ResponseStatusException(
+	            HttpStatus.BAD_REQUEST,
+	            "ERROR : No existe una sección censal con coordenadas: (" + lat + ", " + lon + ") en el Shapefile en la ruta:\n" + CodigoAuxiliar.rutaShapefile
+	        );
+	    }
+	    
+	    //PARTE ESTACIONES
+	    Seccion seccion = seccionService.obtenerSeccionPorId(id_seccion);
+	    List<MedicionDTO> mediciones = medicionService.obtenerMedicionesPorUbicacion(
+	        centroide_seccion.getY(), centroide_seccion.getX(),
+	        id_seccion, false, 2);
 
-			preparedStatement.setString(1, id_seccion);
-			ResultSet resultSet = preparedStatement.executeQuery();
-
-			while (resultSet.next()) {
-				//PARTE SECCION
-				seccion = new Seccion(
-						resultSet.getString("id_seccion"),
-						resultSet.getString("id_distrito"),
-						resultSet.getString("nombre_seccion"),
-						resultSet.getString("codigo_postal"),
-						resultSet.getInt("renta_neta_media_persona"),
-						resultSet.getInt("renta_neta_media_hogar"),
-						resultSet.getInt("renta_unidad_consumo"),
-						resultSet.getInt("mediana_renta_consumo"),
-						resultSet.getInt("renta_bruta_media_persona"),
-						resultSet.getInt("renta_bruta_media_hogar"),
-						resultSet.getDouble("edad_media_poblacion"),
-						resultSet.getDouble("porcentaje_menor_18"),
-						resultSet.getDouble("porcentaje_mayor_65"),
-						resultSet.getDouble("tamaño_medio_hogar"),
-						resultSet.getDouble("porcentaje_hogares_unipersonales"),
-						resultSet.getInt("poblacion"),
-						resultSet.getDouble("porcentaje_poblacion_española"),
-						resultSet.getInt("fuente_ingresos_salario"),
-						resultSet.getInt("fuente_ingresos_pensiones"),
-						resultSet.getInt("fuente_ingresos_pdesempleado"),
-						resultSet.getInt("fuente_ingresos_otrprestaciones"),
-						resultSet.getInt("fuente_ingresos_otringresos"),
-						resultSet.getDouble("latitud_centroide_seccion"),
-						resultSet.getDouble("longitud_centroide_seccion")
-						);
-			}
-
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-
-		if(seccion == null) {
-			throw new ResponseStatusException(
-					HttpStatus.BAD_REQUEST, 
-					"No existe la seccion censal con id_seccion: " + id_seccion
-					);
-		}
-
-		//PARTE ESTACIONES
-		List<Estacion> estaciones = estacionService.obtenerEstaciones();
-		List<Estacion> estacionesCercanas = CodigoAuxiliar.obtenerDosEstacionesMasCercanas(centroide_seccion.getY(), centroide_seccion.getX(), estaciones);
-		List<MedicionDTO> medicionesMediaEstacionesCercanas = codigoAuxiliar.obtenerMedicionesMediasEstacionesCercanas(id_seccion, estacionesCercanas, false);
-		//List<MedicionDTO> medicionesMediaEstacionesCercanas = codigoAuxiliar.obtenerMedicionesMediasEstacionesCercanas(id_seccion, centroide_seccion.getY(), centroide_seccion.getX());
-		resultado = new ObjetoRespuesta(medicionesMediaEstacionesCercanas, seccion);
-		return resultado;
+	    return new ObjetoRespuesta(mediciones, seccion);
 	}
+
 
 	@GetMapping("/cp")
 	@Operation(
