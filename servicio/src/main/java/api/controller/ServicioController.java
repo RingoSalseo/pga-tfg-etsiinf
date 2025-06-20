@@ -136,7 +136,7 @@ public class ServicioController {
 		}
 		System.out.println("_______________");
 		if(total == 0) {
-			throw new RuntimeException("Las secciones censales de la bbdd tienen las coordenadas a (0,0)\nImposible calcular un centroide ubicado en España");
+			throw new ResponseStatusException(HttpStatus.NO_CONTENT, "Las secciones censales de la bbdd tienen las coordenadas a (0,0)\nImposible calcular un centroide ubicado en España");
 		}
 
 		//PARTE SECCION
@@ -254,7 +254,7 @@ public class ServicioController {
 		}
 		System.out.println("_______________");
 		if(total == 0) {
-			throw new RuntimeException("Las secciones censales de la bbdd tienen las coordenadas a (0,0)\nImposible calcular un centroide ubicado en España");
+			throw new ResponseStatusException(HttpStatus.NO_CONTENT, "Las secciones censales de la bbdd tienen las coordenadas a (0,0)\nImposible calcular un centroide ubicado en España");
 		}
 
 		//PARTE SECCION
