@@ -1,0 +1,38 @@
+@startuml
+
+actor "<b>Usuario</b>" as Usuario
+participant "<b>ServicioController</b>" as Controller
+participant "<b>SeccionService</b>" as SeccionService
+participant "<b>CodigoAuxiliar</b>" as Auxiliar
+participant "<b>EstacionService</b>" as EstacionService
+participant "<b>MedicionService</b>" as MedicionService
+participant "<b>ObjetoRespuesta</b>" as ObjetoRespuesta
+
+Usuario -> Controller: <b>GET /comunidad?id_comunidad=01</b>
+Controller -> Auxiliar: <b>obtenerProvinciasPorComunidad("01")</b>
+Auxiliar --> Controller: <b>Set<String> provincias</b>
+
+Controller -> SeccionService: <b>obtenerSeccionesPorComunidad("01")</b>
+SeccionService -> Auxiliar: <b>obtenerProvinciasPorComunidad("01")</b>
+SeccionService -> SeccionRepository: <b>findByIdProvincias(listadoProvincias)</b>
+SeccionRepository --> SeccionService: <b>List<Seccion></b>
+SeccionService --> Controller: <b>List<Seccion></b>
+
+Controller -> EstacionService: <b>obtenerEstaciones()</b>
+EstacionService --> Controller: <b>List<Estacion></b>
+
+Controller -> Auxiliar: <b>calcularCentroideMedio(secciones)</b>
+Auxiliar --> Controller: <b>(latitud, longitud)</b>
+
+Controller -> MedicionService: <b>obtenerMedicionesPorUbicacion(lat, lon, "01", true, 4)</b>
+MedicionService -> EstacionService: <b>obtenerEstaciones()</b>
+EstacionService --> MedicionService: <b>List<Estacion></b>
+MedicionService -> Auxiliar: <b>obtenerCuatroEstacionesMasCercanas()</b>
+Auxiliar --> MedicionService: <b>List<Estacion></b>
+MedicionService -> MedicionRepository: <b>obtenerMedicionesAgrupadasPorFecha(ids)</b>
+MedicionRepository --> MedicionService: <b>List<MedicionDTO></b>
+MedicionService --> Controller: <b>List<MedicionDTO></b>
+
+Controller -> ObjetoRespuesta: <b>crear objeto respuesta</b>
+Controller --> Usuario: <b>ObjetoRespuesta (JSON)</b>
+@enduml

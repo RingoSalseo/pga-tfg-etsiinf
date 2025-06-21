@@ -121,8 +121,11 @@ path_datos_venta = "C:/Users/Pablo Guerrero/OneDrive - Universidad Politécnica 
 
 df = pd.read_excel(path_datos_venta)
 
-tipos_de_orden_aceptados = ["Servido", "Entregado", "Enviado", "Preparación en curso", "Enviado directo proveedor", "Enviado parcialmente",
-                            "Pedido Recibido", "CETELEM - Crédito Preaprobado", "Pedido listo para recoger en tienda", "Pago recibido"]
+tipos_de_orden_aceptados = ["Servido", "Entregado", "Enviado", 
+                            "Preparación en curso", "Enviado directo proveedor", 
+                            "Enviado parcialmente", "Pedido Recibido", 
+                            "CETELEM - Crédito Preaprobado", 
+                            "Pedido listo para recoger en tienda", "Pago recibido"]
 
 # Es necesario puesto que el precio pagado está en eur * 100k
 df = df[df["order_state"].isin(tipos_de_orden_aceptados)]  # Nos quedamos con los pedidos que contabilizan para el nº de ventas
@@ -131,8 +134,6 @@ df["total_paid"] = df["total_paid"] / 1000000
 df = df[["address1", "postcode", "city", "state", "id_order", "order_state", "total_paid", "date_add"]]
 df["fecha"] = pd.to_datetime(df["date_add"])
 
-# Agrupamos por semana
-df["semana"] = df["fecha"].dt.to_period("W").apply(lambda r: r.start_time)
 
 # Agrupamos por código postal y por semana para obtener el número total de ventas
 df_ventas_agrupadas = df.groupby(["postcode", "fecha"]).agg({"total_paid": "sum"}).reset_index()
