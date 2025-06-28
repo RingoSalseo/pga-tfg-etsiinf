@@ -2,6 +2,9 @@ Este repositorio está organizado en varias partes clave que cubren desde la adq
 AEMET-INE/
 Proyecto en Java encargado de la adquisición y procesamiento de datos abiertos de fuentes como AEMET e INE. Incluye técnicas variadas para obtener los datos y su inserción en la base de datos.
 
+AEMET/
+Contiene los códigos de municipios de España.
+
 bbdd/
 Contiene un script principal, el diagrama E/R y el dump de la bbdd con los datos cargados.
 
@@ -17,3 +20,6 @@ Diagrama de arquitectura.
 
 Diagramas uml/
 Son los diagramas UML correspondientes al proyecto AEMET-INE y al servicio
+
+MEMORIA/
+Contiene la memoria final del Trabajo de Fin de Grado.
