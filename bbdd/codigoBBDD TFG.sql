@@ -269,7 +269,12 @@ select * from secciones where id_distrito = "2812701";
 select id_municipio from municipios;
 select distinct count(nombre_seccion) from secciones;
 
-select * from secciones where codigo_postal = "28290";
+select * from secciones where codigo_postal = "28220";
+
+SELECT COUNT(DISTINCT codigo_postal) AS total_codigos_postales
+FROM secciones
+WHERE codigo_postal IS NOT NULL;
+
 
 SELECT * 
 FROM secciones 
@@ -310,5 +315,5 @@ SELECT
     AVG(humedad_maxima) AS humedad_maxima,
     AVG(humedad_minima) AS humedad_minima
 FROM Mediciones
-WHERE id_estacion IN ("3194Y", "3343Y") AND fecha < '2022-01-15'
+WHERE id_estacion IN ("3194Y", "3343Y")  ##AND fecha < '2022-01-15'
 GROUP BY fecha;
