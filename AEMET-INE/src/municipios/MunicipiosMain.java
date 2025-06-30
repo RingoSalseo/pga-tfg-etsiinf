@@ -37,10 +37,10 @@ import objetosPrincipales.SegundaRespuesta;
 
 public class MunicipiosMain {
 
-	private static String municipio = "28127";
+	private static String municipio = "01001";
 	private static final String API_URL = "https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/";
-	private static final String API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYWJsby5ndWVycmVyby5hbHZhcmV6QGFsdW1ub3MudXBtLmVzIiwianRpIjoiYjM5NTE0MmMtNzM3ZC00YjhjLTg2OTEtNTNmOWI1MTJmOWI4IiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE3MjUwMDU3NjUsInVzZXJJZCI6ImIzOTUxNDJjLTczN2QtNGI4Yy04NjkxLTUzZjliNTEyZjliOCIsInJvbGUiOiIifQ.bXj_Lrbtnr2ooS-2v9Lxmf9P_uoCWdPwvP9XToSmoIk";
-	private static final String excel_path = "C:/Users/Pablo Guerrero/eclipse-workspace/AEMET/src/municipios/Municipios INE.xlsx";
+	private static final String API_KEY = "";
+	private static final String excel_path = "";
 
 	private static boolean pruebasPrincipales = false;
 	private static boolean pruebasAux = true;
@@ -75,7 +75,7 @@ public class MunicipiosMain {
 		            System.out.println("No se pudo extraer la URL de los datos.");
 		        }
 		    } else {
-		        System.out.println("Error al obtener la respuesta de la primera petición.");
+		        System.out.println("Error al obtener la respuesta de la primera peticiï¿½n.");
 		    }
 		}
 
@@ -107,7 +107,7 @@ public class MunicipiosMain {
 	            Gson gson = new GsonBuilder().setDateFormat("dd/MM/yyyy hh:mm a").create();
 	            return gson.fromJson(response.toString(), PrimeraRespuesta.class);
 	        } else {
-	            System.out.println("Error en la primera petición, código de respuesta: " + status);
+	            System.out.println("Error en la primera peticiï¿½n, cï¿½digo de respuesta: " + status);
 	            return null;
 	        }
 	    } catch (IOException e) {
@@ -140,7 +140,7 @@ public class MunicipiosMain {
 	            Gson gson = new GsonBuilder().setDateFormat("dd/MM/yyyy hh:mm a").create();
 	            return gson.fromJson(response.toString(), SegundaRespuesta[].class);
 	        } else {
-	            System.out.println("Error en la segunda petición, código de respuesta: " + status);
+	            System.out.println("Error en la segunda peticiï¿½n, cï¿½digo de respuesta: " + status);
 	            return null;
 	        }
 	    } catch (IOException e) {
@@ -150,12 +150,12 @@ public class MunicipiosMain {
 	}
 
 	/*
-	 * Método que realiza la petición a la api de Aemet, obtiene los datos y los almacena en la bbdd
+	 * Mï¿½todo que realiza la peticiï¿½n a la api de Aemet, obtiene los datos y los almacena en la bbdd
 	 */
 	private static String obtenerYAlmacenarPrediccionMunicipio(Connection conn, String id_municipio){
 		String nombreMunicipio = "";
 
-		// Realizar la primera petición para obtener la URL de los datos
+		// Realizar la primera peticiï¿½n para obtener la URL de los datos
 		PrimeraRespuesta res = realizarPrimeraPeticion(id_municipio);
 		if (res != null) {
 
@@ -183,7 +183,7 @@ public class MunicipiosMain {
 					int id_prediccion_bbdd = 1;
 					String id_municipio_bbdd = String.valueOf(prediccionArray[0].getId());
 
-					//Limpiamos la base de datos y añadimos la nueva predicción
+					//Limpiamos la base de datos y aï¿½adimos la nueva predicciï¿½n
 					String borrarBBDD = "DELETE FROM prediccion where id_prediccion = 1;";
 					try(Statement borrar = conn.createStatement()){
 						int filasAfectadas = borrar.executeUpdate(borrarBBDD);
@@ -192,7 +192,7 @@ public class MunicipiosMain {
 						System.err.println("Error en el borrado de la base de datos");
 						e.printStackTrace();
 					}
-					//Inserción bbdd
+					//Inserciï¿½n bbdd
 
 					String insertPrediccionSQL = "INSERT INTO Prediccion (id_prediccion, id_municipio) VALUES (?, ?)"
 							+ "ON DUPLICATE KEY UPDATE id_municipio = VALUES(id_municipio)";
@@ -246,16 +246,16 @@ public class MunicipiosMain {
 				System.out.println("No se pudo extraer la URL de los datos.");
 			}
 		} else {
-			System.out.println("Error al obtener la respuesta de la primera petición.");
+			System.out.println("Error al obtener la respuesta de la primera peticiï¿½n.");
 		}
 		System.out.println("Se ha actualizado la prediccion para el municipio: " + nombreMunicipio + " con id_municipio: " + id_municipio);
 		return nombreMunicipio;
 	}
 
 	public static void insertarDetallesDia(Connection conn, Dia dia, int id_dia) {
-		// Insertar detalles de probabilidad de precipitación
+		// Insertar detalles de probabilidad de precipitaciï¿½n
 		String upsertProbPrecipitacionSQL = "INSERT INTO ProbPrecipitacion (id_dia, periodo, porcentaje) VALUES (?, ?, ?) "
-				+ "ON DUPLICATE KEY UPDATE porcentaje = VALUES(porcentaje)"; // Utiliza la clave primaria o un índice único
+				+ "ON DUPLICATE KEY UPDATE porcentaje = VALUES(porcentaje)"; // Utiliza la clave primaria o un ï¿½ndice ï¿½nico
 
 		try (PreparedStatement probStmt = conn.prepareStatement(upsertProbPrecipitacionSQL)) {
 			for (ProbPrecipitacion prob : dia.getProbPrecipitacion()) {
@@ -324,7 +324,7 @@ public class MunicipiosMain {
 			e.printStackTrace();
 		}
 
-		// Insertar detalles de racha máxima
+		// Insertar detalles de racha mï¿½xima
 		String upsertRachaMaxSQL = "INSERT INTO RachaMax (id_dia, periodo, velocidad) VALUES (?, ?, ?) "
 				+ "ON DUPLICATE KEY UPDATE velocidad = VALUES(velocidad)";
 
@@ -349,7 +349,7 @@ public class MunicipiosMain {
 	 * 
 	 * 
 	 * @param path : Ruta donde se ubica el Excel con la relacion entre municipios y su id_municipio (CPRO+CMUN)
-	 * @return obtenidos: Nº de municipios para los que se han obtenido diferentes mediciones
+	 * @return obtenidos: Nï¿½ de municipios para los que se han obtenido diferentes mediciones
 	 * @throws IOException 
 	 */
 	private static int peticionPrediccionesMunicipios(String path) throws IOException {

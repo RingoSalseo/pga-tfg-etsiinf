@@ -59,7 +59,7 @@ public class CodigoAuxiliar {
 	 *         Si el punto no pertenece a ninguna sección, el arreglo contendrá valores nulos.
 	 * @throws Exception Si ocurre algún error al procesar el archivo shapefile de cartografía.
 	 * 
-	 * @author Pablo Guerrero Álvarez b190292. ETSIINF
+	 * @author Pablo Guerrero Álvarez. ETSIINF
 	 * 
 	 */
 	public static Object[] obtenerCusecYCoordenadasSeccion(double latitud, double longitud) throws Exception {
@@ -113,7 +113,7 @@ public class CodigoAuxiliar {
 	 * @return Un objeto Point transformado al CRS del shapefile. (coordenadas de referencia)
 	 * @throws Exception Si ocurre algún error al realizar la transformación de coordenadas.
 	 * 
-	 * @author Pablo Guerrero Álvarez b190292. ETSIINF
+	 * @author Pablo Guerrero Álvarez. ETSIINF
 	 */
 	public static Point transformPointToShapefileCRS(Point point, SimpleFeatureSource featureSource) throws Exception {
 		// Obtener el sistema de referencia del shapefile
@@ -133,7 +133,7 @@ public class CodigoAuxiliar {
 	 * @return puntoGeografico Punto geográfico (latitud y longitud) correspondiente al centroide de la sección (Point).
 	 * @throws Exception Si ocurre un error al procesar el shapefile o al transformar las coordenadas.
 	 * 
-	 * @author: Pablo Guerrero Álvarez b190292. ETSIINF
+	 * @author: Pablo Guerrero Álvarez. ETSIINF
 	 */
 	public static Point obtenerCentroSeccion(String idSeccion) throws Exception {
 		// Cargar el shapefile
@@ -175,7 +175,7 @@ public class CodigoAuxiliar {
 	 * @param lon2 Longitud del segundo punto.
 	 * @return Distancia en kilómetros entre los dos puntos.
 	 * 
-	 * {@code} Pablo Guerrero Álvarez b190292. ETSIINF
+	 * {@code} Pablo Guerrero Álvarez. ETSIINF
 	 * @author https://www.genbeta.com/desarrollo/como-calcular-la-distancia-entre-dos-puntos-geograficos-en-c-formula-de-haversine
 	 */
 	public static double calcularDistancia(double lat1, double lon1, double lat2, double lon2) {
@@ -203,7 +203,7 @@ public class CodigoAuxiliar {
 	 * @return List<Medicion> Lista con las mediciones medias ordenadas cronológicamente por fecha.
 	 * 
 	 * @throws ResponseStatusException Si no se encuentran estaciones cercanas dentro del rango establecido.
-	 * @author Pablo Guerrero Álvarez b190292. ETSIINF
+	 * @author Pablo Guerrero Álvarez. ETSIINF
 	 */
 	public static List<Estacion> obtenerDosEstacionesMasCercanas(double latitudCentroide, double longitudCentroide, List<Estacion> estaciones) {
 		// Lista para almacenar las distancias
@@ -249,7 +249,7 @@ public class CodigoAuxiliar {
 	 * @param longitudCentroide  Longitud del punto de referencia.
 	 * @param estaciones         Lista de estaciones disponibles.
 	 * @return Lista con exactamente 4 estaciones (posiblemente con repeticiones).
-	 * @author Pablo Guerrero Álvarez b190292. ETSIINF
+	 * @author Pablo Guerrero Álvarez. ETSIINF
 	 */
 	public static List<Estacion> obtenerCuatroEstacionesMasCercanas(double latitudCentroide, double longitudCentroide, List<Estacion> estaciones) {
 

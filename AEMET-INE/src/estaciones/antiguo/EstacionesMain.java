@@ -19,7 +19,7 @@ import objetosPrincipales.PrimeraRespuesta;
 public class EstacionesMain {
 
 	private static final String API_URL = "https://opendata.aemet.es/opendata/api/observacion/convencional/todas";
-	private static final String API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYWJsby5ndWVycmVyby5hbHZhcmV6QGFsdW1ub3MudXBtLmVzIiwianRpIjoiYjM5NTE0MmMtNzM3ZC00YjhjLTg2OTEtNTNmOWI1MTJmOWI4IiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE3MjUwMDU3NjUsInVzZXJJZCI6ImIzOTUxNDJjLTczN2QtNGI4Yy04NjkxLTUzZjliNTEyZjliOCIsInJvbGUiOiIifQ.bXj_Lrbtnr2ooS-2v9Lxmf9P_uoCWdPwvP9XToSmoIk";
+	private static final String API_KEY = "";
 
 	private static boolean pruebas = true;
 
@@ -107,7 +107,7 @@ public class EstacionesMain {
 			response.close();
 			return jsonResponse;
 		} else {
-			System.out.println("Error en la primera petición, código de respuesta: " + status);
+			System.out.println("Error en la primera peticiï¿½n, cï¿½digo de respuesta: " + status);
 			response.close();
 			return null;
 		}
@@ -127,7 +127,7 @@ public class EstacionesMain {
 			response.close();
 			return jsonResponse;
 		} else {
-			System.out.println("Error en la segunda petición, código de respuesta: " + status);
+			System.out.println("Error en la segunda peticiï¿½n, cï¿½digo de respuesta: " + status);
 			response.close();
 			return null;
 		}

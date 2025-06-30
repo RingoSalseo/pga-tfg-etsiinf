@@ -14,7 +14,7 @@ public class ConsultasCartoCiudad {
 	private static final String API_URL = "https://www.cartociudad.es/geocoder/api/geocoder/reverseGeocode?";
 	
 	private static final String API_URL_LOCATIONUS = "https://us1.locationiq.com/v1/reverse";
-	private static final String API_KEY_LOCATIONUS = "pk.1a30affc32ce5cd5e21df6f004b35748";
+	private static final String API_KEY_LOCATIONUS = "";
 	
 
 	// Metodo que devuelve los datos de un punto geografico dadas unas coordenadas geograficas
@@ -45,7 +45,7 @@ public class ConsultasCartoCiudad {
 				return null;
 			}
 			else {
-				System.out.println("Error en petición de consulta a la API de CartoCiudad, código de respuesta: " + status);
+				System.out.println("Error en peticiï¿½n de consulta a la API de CartoCiudad, cï¿½digo de respuesta: " + status);
 				response.close();
 				return null;
 			}
@@ -53,12 +53,12 @@ public class ConsultasCartoCiudad {
 	}
 	
 	/*
-	 * Método que consulta la api de LocationUS. Pruebas para ver la precisión. Parece más precisa que CartoCiudad
+	 * Mï¿½todo que consulta la api de LocationUS. Pruebas para ver la precisiï¿½n. Parece mï¿½s precisa que CartoCiudad
 	 */
 	public static ObjetoLocationUS consultarLocationUS(Double latitud, Double longitud) {
 	    Client client = ClientBuilder.newClient();
 	    
-	    // Agregar parámetros de la consulta (clave, latitud y longitud)
+	    // Agregar parï¿½metros de la consulta (clave, latitud y longitud)
 	    WebTarget target = client.target(API_URL_LOCATIONUS)
 	            .queryParam("key", API_KEY_LOCATIONUS)
 	            .queryParam("lat", latitud)
@@ -83,7 +83,7 @@ public class ConsultasCartoCiudad {
 	        if (status == 204) {
 	            System.out.println("No se ha encontrado respuesta para las coordenadas: (" + longitud + ", " + latitud + ")");
 	        } else {
-	            System.out.println("Error en la petición a la API, código de respuesta: " + status);
+	            System.out.println("Error en la peticiï¿½n a la API, cï¿½digo de respuesta: " + status);
 	        }
 	        response.close();
 	        return null;
