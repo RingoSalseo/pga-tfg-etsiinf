@@ -306,7 +306,6 @@ public class ServicioController {
 	@ApiResponses(value = {
 	    @ApiResponse(responseCode = "200", description = "OK",
 	        content = @Content(mediaType = "application/json", schema = @Schema(implementation = ObjetoRespuesta.class))),
-	    @ApiResponse(responseCode = "204", description = "No se encontraron secciones para las coordenadas proporcionadas."),
 	    @ApiResponse(responseCode = "400", description = "Las coordenadas tienen un formato inválido o no existen estaciones cercanas a ellas.",
 	        content = @Content(mediaType = "application/json")),
 	    @ApiResponse(responseCode = "500", description = "Error interno del servidor.",
