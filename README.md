@@ -21,6 +21,3 @@ Diagrama de arquitectura.
 
 Diagramas uml/
 Son los diagramas UML correspondientes al proyecto AEMET-INE y al servicio
-
-MEMORIA/
-Contiene la memoria final del Trabajo de Fin de Grado.
