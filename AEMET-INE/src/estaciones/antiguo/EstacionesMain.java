@@ -3,8 +3,6 @@ package estaciones.antiguo;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Arrays;
-
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
@@ -107,7 +105,7 @@ public class EstacionesMain {
 			response.close();
 			return jsonResponse;
 		} else {
-			System.out.println("Error en la primera peticiï¿½n, cï¿½digo de respuesta: " + status);
+			System.out.println("Error en la primera petición, código de respuesta: " + status);
 			response.close();
 			return null;
 		}
@@ -127,7 +125,7 @@ public class EstacionesMain {
 			response.close();
 			return jsonResponse;
 		} else {
-			System.out.println("Error en la segunda peticiï¿½n, cï¿½digo de respuesta: " + status);
+			System.out.println("Error en la segunda petición, código de respuesta: " + status);
 			response.close();
 			return null;
 		}

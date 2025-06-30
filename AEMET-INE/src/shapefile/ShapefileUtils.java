@@ -74,7 +74,7 @@ public class ShapefileUtils {
 			System.out.println("_________________________________________________________________________");
 		}
 
-		Boolean prueba3 = true;
+		Boolean prueba3 = false;
 		if(prueba3) {
 			File file = new File(rutaShapefile);
 			FileDataStore store = FileDataStoreFinder.getDataStore(file);

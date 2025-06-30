@@ -19,7 +19,7 @@ public class ActualizarCoordenadasEstaciones {
 
 	
 	private static final String BASE_API_URL = "https://opendata.aemet.es/opendata/api/valores/climatologicos/inventarioestaciones/todasestaciones";
-	private static final String API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYWJsby5ndWVycmVyby5hbHZhcmV6QGFsdW1ub3MudXBtLmVzIiwianRpIjoiYjM5NTE0MmMtNzM3ZC00YjhjLTg2OTEtNTNmOWI1MTJmOWI4IiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE3MjUwMDU3NjUsInVzZXJJZCI6ImIzOTUxNDJjLTczN2QtNGI4Yy04NjkxLTUzZjliNTEyZjliOCIsInJvbGUiOiIifQ.bXj_Lrbtnr2ooS-2v9Lxmf9P_uoCWdPwvP9XToSmoIk";
+	private static final String API_KEY = "";
 
 	private static String realizarPrimeraPeticion() {
 		Client client = ClientBuilder.newClient();

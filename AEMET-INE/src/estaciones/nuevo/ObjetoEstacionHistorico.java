@@ -6,77 +6,77 @@ import com.google.gson.annotations.SerializedName;
 
 public class ObjetoEstacionHistorico {
 
-private Date fecha;
-	
+	private Date fecha;
+
 	@SerializedName("indicativo")
-    private String id_estacion;
-	
-    private String nombre;
-    private String provincia;
-    private String altitud;
-    
-    @SerializedName("tmed")
-    private String temperatura_media;
+	private String id_estacion;
 
-    @SerializedName("prec")
-    private String precipitacion;
+	private String nombre;
+	private String provincia;
+	private String altitud;
 
-    @SerializedName("tmin")
-    private String temperatura_minima;
+	@SerializedName("tmed")
+	private String temperatura_media;
 
-    @SerializedName("horatmin")
-    private String hora_temperatura_minima;
+	@SerializedName("prec")
+	private String precipitacion;
 
-    @SerializedName("tmax")
-    private String temperatura_maxima;
+	@SerializedName("tmin")
+	private String temperatura_minima;
 
-    @SerializedName("horatmax")
-    private String hora_temperatura_maxima;
+	@SerializedName("horatmin")
+	private String hora_temperatura_minima;
 
-    @SerializedName("dir")
-    private String direccion_racha_maxima;
-    
-    @SerializedName("velmedia")
-    private String velocidad_media_viento;
-    
-    @SerializedName("racha")
-    private String racha_maxima;
-    
-    private String horaracha;
-    
-    @SerializedName("sol")
-    private String insolacion;
+	@SerializedName("tmax")
+	private String temperatura_maxima;
 
-    @SerializedName("presMax")
-    private String presion_maxima;
+	@SerializedName("horatmax")
+	private String hora_temperatura_maxima;
 
-    @SerializedName("horaPresMax")
-    private String hora_presion_maxima;
+	@SerializedName("dir")
+	private String direccion_racha_maxima;
 
-    @SerializedName("presMin")
-    private String presion_minima;
+	@SerializedName("velmedia")
+	private String velocidad_media_viento;
 
-    @SerializedName("horaPresMin")
-    private String hora_presion_minima;
+	@SerializedName("racha")
+	private String racha_maxima;
 
-    @SerializedName("hrMedia")
-    private String humedad_media;
+	private String horaracha;
 
-    @SerializedName("hrMax")
-    private String humedad_maxima;
+	@SerializedName("sol")
+	private String insolacion;
 
-    @SerializedName("horaHrMax")
-    private String hora_humedad_maxima;
+	@SerializedName("presMax")
+	private String presion_maxima;
 
-    @SerializedName("hrMin")
-    private String humedad_minima;
+	@SerializedName("horaPresMax")
+	private String hora_presion_maxima;
 
-    @SerializedName("horaHrMin")
-    private String hora_humedad_minima;
-    
-    public static float reemplazarComa(String valor) {
-    	return Float.parseFloat(valor.trim().replace(",", "."));
-    }
+	@SerializedName("presMin")
+	private String presion_minima;
+
+	@SerializedName("horaPresMin")
+	private String hora_presion_minima;
+
+	@SerializedName("hrMedia")
+	private String humedad_media;
+
+	@SerializedName("hrMax")
+	private String humedad_maxima;
+
+	@SerializedName("horaHrMax")
+	private String hora_humedad_maxima;
+
+	@SerializedName("hrMin")
+	private String humedad_minima;
+
+	@SerializedName("horaHrMin")
+	private String hora_humedad_minima;
+
+	public static float reemplazarComa(String valor) {
+		return Float.parseFloat(valor.trim().replace(",", "."));
+	}
 
 	public ObjetoEstacionHistorico(Date fecha, String id_estacion, String nombre, String provincia, String altitud,
 			String temperatura_media, String precipitacion, String temperatura_minima, String hora_temperatura_minima,
@@ -86,30 +86,30 @@ private Date fecha;
 			String humedad_maxima, String hora_humedad_maxima, String humedad_minima, String hora_humedad_minima) {
 		super();
 		this.fecha = fecha;
-        this.id_estacion = id_estacion;
-        this.nombre = nombre;
-        this.provincia = provincia;
-        this.altitud = altitud;
-        this.temperatura_media = temperatura_media;
-        this.precipitacion = precipitacion;
-        this.temperatura_minima = temperatura_minima;
-        this.hora_temperatura_minima = hora_temperatura_minima;
-        this.temperatura_maxima = temperatura_maxima;
-        this.hora_temperatura_maxima = hora_temperatura_maxima;
-        this.direccion_racha_maxima = direccion_racha_maxima;
-        this.velocidad_media_viento = velocidad_media_viento;
-        this.racha_maxima = racha_maxima;
-        this.horaracha = horaracha;
-        this.insolacion = insolacion;
-        this.presion_maxima = presion_maxima;
-        this.hora_presion_maxima = hora_presion_maxima;
-        this.presion_minima = presion_minima;
-        this.hora_presion_minima = hora_presion_minima;
-        this.humedad_media = humedad_media;
-        this.humedad_maxima = humedad_maxima;
-        this.hora_humedad_maxima = hora_humedad_maxima;
-        this.humedad_minima = humedad_minima;
-        this.hora_humedad_minima = hora_humedad_minima;
+		this.id_estacion = id_estacion;
+		this.nombre = nombre;
+		this.provincia = provincia;
+		this.altitud = altitud;
+		this.temperatura_media = temperatura_media;
+		this.precipitacion = precipitacion;
+		this.temperatura_minima = temperatura_minima;
+		this.hora_temperatura_minima = hora_temperatura_minima;
+		this.temperatura_maxima = temperatura_maxima;
+		this.hora_temperatura_maxima = hora_temperatura_maxima;
+		this.direccion_racha_maxima = direccion_racha_maxima;
+		this.velocidad_media_viento = velocidad_media_viento;
+		this.racha_maxima = racha_maxima;
+		this.horaracha = horaracha;
+		this.insolacion = insolacion;
+		this.presion_maxima = presion_maxima;
+		this.hora_presion_maxima = hora_presion_maxima;
+		this.presion_minima = presion_minima;
+		this.hora_presion_minima = hora_presion_minima;
+		this.humedad_media = humedad_media;
+		this.humedad_maxima = humedad_maxima;
+		this.hora_humedad_maxima = hora_humedad_maxima;
+		this.humedad_minima = humedad_minima;
+		this.hora_humedad_minima = hora_humedad_minima;
 	}
 
 	public Date getFecha() {
@@ -326,6 +326,6 @@ private Date fecha;
 				+ ", humedad_maxima=" + humedad_maxima + ", hora_humedad_maxima=" + hora_humedad_maxima
 				+ ", humedad_minima=" + humedad_minima + ", hora_humedad_minima=" + hora_humedad_minima + "]";
 	}
-    
-    
+
+
 }

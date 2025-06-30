@@ -46,7 +46,7 @@ public class HistoricoEstaciones {
 			response.close();
 			return jsonResponse;
 		} else {
-			System.out.println("Error en la primera peticiï¿½n, cï¿½digo de respuesta: " + status);
+			System.out.println("Error en la primera petición, código de respuesta: " + status);
 			response.close();
 			return null;
 		}
@@ -68,7 +68,7 @@ public class HistoricoEstaciones {
 			response.close();
 			return jsonResponse;
 		} else {
-			System.out.println("Error en la primera peticiï¿½n, cï¿½digo de respuesta: " + status);
+			System.out.println("Error en la primera petición, código de respuesta: " + status);
 			response.close();
 			return null;
 		}
@@ -88,7 +88,7 @@ public class HistoricoEstaciones {
 			response.close();
 			return jsonResponse;
 		} else {
-			System.out.println("Error en la segunda peticiï¿½n, cï¿½digo de respuesta: " + status);
+			System.out.println("Error en la segunda petición, código de respuesta: " + status);
 			response.close();
 			return null;
 		}
@@ -120,7 +120,7 @@ public class HistoricoEstaciones {
 		// Bucle para realizar las peticiones
 		while (calendar.getTime().before(fechaFin)) {
 
-			// Avanzar el calendario por 15 dï¿½as
+			// Avanzar el calendario por 15 días
 			calendar.add(Calendar.DATE, limite_maximo_api);
 			Date fechaIntervaloFin = calendar.getTime();
 
@@ -198,7 +198,7 @@ public class HistoricoEstaciones {
 			                stmtMediciones.setNull(4, Types.FLOAT);
 			            } else {
 			            	//Significa que la precipitacion ha sido inferior a 0.1 mm
-			            	//En nuestro caso serï¿½ igual a 0
+			            	//En nuestro caso será igual a 0
 			            	if(estacion.getPrecipitacion().equals("Ip") | estacion.getPrecipitacion().equals("Acum")) {
 			            		stmtMediciones.setFloat(4, 0);
 			            	}
@@ -311,16 +311,16 @@ public class HistoricoEstaciones {
         // Lista para almacenar los IDs de estaciones ya procesados
         ArrayList<String> estacionesProcesadas = new ArrayList<>();
         
-        // Declaraciï¿½n de objetos para la respuesta de la API
+        // Declaración de objetos para la respuesta de la API
         PrimeraRespuesta aux = null;
         Estacion[] respuesta = null;
 
-        // Configuraciï¿½n de Gson para deserializar las respuestas JSON
+        // Configuración de Gson para deserializar las respuestas JSON
         GsonBuilder gsonBuilder = new GsonBuilder();
         gsonBuilder.setDateFormat("dd/MM/yyyy hh:mm a");
         Gson gson = gsonBuilder.create();
 
-        // Realiza la primera peticiï¿½n para obtener el URL de las estaciones
+        // Realiza la primera petición para obtener el URL de las estaciones
         String response = realizarPrimeraPeticionCoordenadas();
         String urlDatosEstaciones = null;
 
@@ -329,11 +329,11 @@ public class HistoricoEstaciones {
             urlDatosEstaciones = aux.getDatos();
         }
 
-        // Realiza la segunda peticiï¿½n para obtener los datos de las estaciones
+        // Realiza la segunda petición para obtener los datos de las estaciones
         String res = realizarSegundaPeticion(urlDatosEstaciones);
         respuesta = gson.fromJson(res, Estacion[].class);
 
-        // Query de inserciï¿½n de latitud y longitud
+        // Query de inserción de latitud y longitud
         String sql = "INSERT INTO estaciones (id_estacion, latitud, longitud) "
                    + "VALUES (?, ?, ?) "
                    + "ON DUPLICATE KEY UPDATE latitud = VALUES(latitud), longitud = VALUES(longitud)";

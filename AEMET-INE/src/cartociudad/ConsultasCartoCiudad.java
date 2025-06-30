@@ -1,10 +1,10 @@
 package cartociudad;
 
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.ClientBuilder;
-import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -12,84 +12,94 @@ import com.google.gson.GsonBuilder;
 public class ConsultasCartoCiudad {
 
 	private static final String API_URL = "https://www.cartociudad.es/geocoder/api/geocoder/reverseGeocode?";
-	
 	private static final String API_URL_LOCATIONUS = "https://us1.locationiq.com/v1/reverse";
 	private static final String API_KEY_LOCATIONUS = "";
-	
 
-	// Metodo que devuelve los datos de un punto geografico dadas unas coordenadas geograficas
+	// Método que devuelve los datos de un punto geográfico dadas unas coordenadas geográficas
 	// Objeto de tipo ObjetoCartoCiudad
 	public static ObjetoCartoCiudad consultarCartoCiudad(Double latitud, Double longitud) {
-		Client client = ClientBuilder.newClient();
-		WebTarget target = client.target(API_URL).queryParam("lat", latitud).queryParam("lon", longitud);
-
-		ObjetoCartoCiudad resultado;
 		GsonBuilder gsonBuilder = new GsonBuilder();
 		gsonBuilder.setDateFormat("dd/MM/yyyy hh:mm a");
-		Gson gson  = gsonBuilder.create();
+		Gson gson = gsonBuilder.create();
 
-		Response response = target
-				.request(MediaType.APPLICATION_JSON)
-				.get();
+		try {
+			// Construir la URL con los parámetros de latitud y longitud
+			String urlStr = API_URL + "lat=" + latitud + "&lon=" + longitud;
+			URL url = new URL(urlStr);
+			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+			conn.setRequestMethod("GET");
+			conn.setRequestProperty("Accept", "application/json");
 
+			int status = conn.getResponseCode();
+			if (status == 200) {
+				// Leer la respuesta de la API
+				BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+				String inputLine;
+				StringBuilder content = new StringBuilder();
+				while ((inputLine = in.readLine()) != null) {
+					content.append(inputLine);
+				}
+				in.close();
+				conn.disconnect();
 
-		int status = response.getStatus();
-		if (status == 200) {
-			resultado = gson.fromJson(response.readEntity(String.class), ObjetoCartoCiudad.class);
-			response.close();
-			return resultado;
-		} else {
-			if(status == 204) {
+				// Convertir JSON a objeto Java
+				return gson.fromJson(content.toString(), ObjetoCartoCiudad.class);
+			} else if (status == 204) {
 				System.out.println("No se ha encontrado respuesta para las coordenadas: (" + longitud + ", " + latitud + ")");
-				response.close();
-				return null;
+			} else {
+				System.out.println("Error en petición de consulta a la API de CartoCiudad, código de respuesta: " + status);
 			}
-			else {
-				System.out.println("Error en peticiï¿½n de consulta a la API de CartoCiudad, cï¿½digo de respuesta: " + status);
-				response.close();
-				return null;
-			}
+			conn.disconnect();
+		} catch (IOException e) {
+			System.err.println("Error al conectar con la API de CartoCiudad: " + e.getMessage());
 		}
+		return null;
 	}
-	
+
 	/*
-	 * Mï¿½todo que consulta la api de LocationUS. Pruebas para ver la precisiï¿½n. Parece mï¿½s precisa que CartoCiudad
+	 * Método que consulta la API de LocationUS. Pruebas para ver la precisión. Parece más precisa que CartoCiudad
 	 */
 	public static ObjetoLocationUS consultarLocationUS(Double latitud, Double longitud) {
-	    Client client = ClientBuilder.newClient();
-	    
-	    // Agregar parï¿½metros de la consulta (clave, latitud y longitud)
-	    WebTarget target = client.target(API_URL_LOCATIONUS)
-	            .queryParam("key", API_KEY_LOCATIONUS)
-	            .queryParam("lat", latitud)
-	            .queryParam("lon", longitud)
-	            .queryParam("format", "json"); // Aseguramos el formato JSON en la respuesta
+		GsonBuilder gsonBuilder = new GsonBuilder();
+		gsonBuilder.setDateFormat("dd/MM/yyyy hh:mm a");
+		Gson gson = gsonBuilder.create();
 
-	    GsonBuilder gsonBuilder = new GsonBuilder();
-	    gsonBuilder.setDateFormat("dd/MM/yyyy hh:mm a");
-	    Gson gson = gsonBuilder.create();
+		try {
+			// Construir la URL con los parámetros necesarios
+			String urlStr = API_URL_LOCATIONUS +
+					"?key=" + API_KEY_LOCATIONUS +
+					"&lat=" + latitud +
+					"&lon=" + longitud +
+					"&format=json";
+			URL url = new URL(urlStr);
+			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+			conn.setRequestMethod("GET");
+			conn.setRequestProperty("Accept", "application/json");
 
-	    Response response = target
-	            .request(MediaType.APPLICATION_JSON)
-	            .get();
+			int status = conn.getResponseCode();
+			System.out.println("CODIGO LOCATION US COORDENADAS BUSCADAS : " + latitud + ", " + longitud);
+			if (status == 200) {
+				// Leer la respuesta de la API
+				BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+				String inputLine;
+				StringBuilder content = new StringBuilder();
+				while ((inputLine = in.readLine()) != null) {
+					content.append(inputLine);
+				}
+				in.close();
+				conn.disconnect();
 
-	    int status = response.getStatus();
-	    System.out.println("CODIGO LOCATION US COORDENADAS BUSCADAS : " +  latitud + ", " + longitud);
-	    if (status == 200) {
-	        String jsonResponse = response.readEntity(String.class);
-	        response.close();
-	        return gson.fromJson(jsonResponse, ObjetoLocationUS.class);
-	    } else {
-	        if (status == 204) {
-	            System.out.println("No se ha encontrado respuesta para las coordenadas: (" + longitud + ", " + latitud + ")");
-	        } else {
-	            System.out.println("Error en la peticiï¿½n a la API, cï¿½digo de respuesta: " + status);
-	        }
-	        response.close();
-	        return null;
-	    }
+				// Convertir JSON a objeto Java
+				return gson.fromJson(content.toString(), ObjetoLocationUS.class);
+			} else if (status == 204) {
+				System.out.println("No se ha encontrado respuesta para las coordenadas: (" + longitud + ", " + latitud + ")");
+			} else {
+				System.out.println("Error en la petición a la API, código de respuesta: " + status);
+			}
+			conn.disconnect();
+		} catch (IOException e) {
+			System.err.println("Error al conectar con la API de LocationIQ: " + e.getMessage());
+		}
+		return null;
 	}
-
-	
-	
 }

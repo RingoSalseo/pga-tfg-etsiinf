@@ -2,10 +2,12 @@ Antes de publicar este repositorio, se han eliminado claves y rutas sensibles. A
 
 Clave API eliminada de ConsultasCartoCiudad.java, sustituida por API_KEY_LOCATIONUS.
 
-Clave API eliminada de HistoricoEstaciones.java, sustituida por API_KEY.
+Clave API eliminada de HistoricoEstaciones.java, sustituida por API_KEY AEMET.
 
-Clave API eliminada de EstacionesMain.java, sustituir por API_KEY.
+Clave API eliminada de EstacionesMain.java, sustituir por API_KEY AEMET.
 
-Clave API eliminada de MunicipiosMain.java, sustituir por API_KEY.
+Clave API eliminada de MunicipiosMain.java, sustituir por API_KEY AEMET.
+
+Clave API eliminada de ActualizarCoordenadasEstaciones.java, sustituir por API-KEY AEMET.
 
 Ruta al archivo /Municipios INE.xlsx eliminada de MunicipiosMain.java.
