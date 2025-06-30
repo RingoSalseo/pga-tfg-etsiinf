@@ -1,4 +1,5 @@
 Este repositorio está organizado en varias partes clave que cubren desde la adquisición de datos abiertos, su almacenamiento, la exposición de un servicio REST, hasta el consumo de estos datos para realizar predicciones con un modelo LSTM en Python.
+
 AEMET-INE/
 Proyecto en Java encargado de la adquisición y procesamiento de datos abiertos de fuentes como AEMET e INE. Incluye técnicas variadas para obtener los datos y su inserción en la base de datos.
 
